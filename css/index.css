@@ -8,8 +8,10 @@ body {
     margin: 0;
     height: 100%;
     --light: #DEE4E7;
-    --black: #222222;
+    --black: #111111;
     --dark: #37474F;
+    --darkGrey: #333333;
+    --darkerGrey: #222222;
 }
 
 p {
@@ -23,7 +25,7 @@ ul {
 .headPic {
     position: relative;
     height: 100%;
-    background: dimgrey url(../header.jpg) 100% 100% no-repeat;
+    background: dimgrey url(../images/header.jpg) 100% 100% no-repeat;
     background-position: 50% 45%;
     background-size: cover;
     background-attachment: fixed;
@@ -57,12 +59,12 @@ ul {
     max-width: 720px;
 }
 .colouredDivider {
-    background: var(--dark);
+    background: var(--black);
     background-size: cover;
 }
 .picture2 {
     height: 70%;
-    background: dimgrey url(../temppic.jpg) 100% 100% no-repeat;
+    background: dimgrey url(../images/temppic.jpg) 100% 100% no-repeat;
     background-position: 50% 45%;
     background-size: cover;
     background-attachment: fixed;
@@ -71,7 +73,7 @@ ul {
 
 .picture3 {
     height: 70%;
-    background: dimgrey url(../rain.jpg) 100% 100% no-repeat;
+    background: dimgrey url(../images/rain.jpg) 100% 100% no-repeat;
     background-position: 50% 45%;
     background-size: cover;
     background-attachment: fixed;
@@ -81,7 +83,7 @@ h3 {
     margin: 0;
     color: var(--light);
     text-align: center;
-    padding-top: 1.2rem;
+    /* padding-top: 1.2rem; */
     text-transform: uppercase;
     font-size: 1.777rem;
     letter-spacing: 0.30rem;
@@ -118,7 +120,9 @@ h3 {
     display: block;
     font-size: 0;
 }
-
+.threeColumn > li {
+  position: relative;
+}
 .threeColumn > * {
     display: inline-block;
     vertical-align: top;
@@ -128,7 +132,7 @@ h3 {
     display: block;
     content: "";
     width: 100%;
-    padding-top: 62.5%
+    padding-top: 62.5%;
 }
 
 .threeColumn li a img {
@@ -136,7 +140,11 @@ h3 {
     top: 50%;
     left: 50%;
     display: block;
-    max-width: 90%;
+    min-width: 100%;
+    max-width: 150%;
+    min-height: 100%;
+    max-height: 150%;
+    object-fit: cover;
     vertical-align: baseline;
     text-align: center;
     transform: translateX(-50%) translateY(-50%) translateZ(0);
@@ -149,11 +157,148 @@ h3 {
     margin-right: 0 !important;
     min-height: 270px;
     text-align: center;
+    overflow: hidden;
+
+}
+
+.overlayContainer {
+  display:block;
+  position: absolute;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  height: 100%;
+  width:100%;
+  top: 0;
+}
+
+.textOverlay {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--darkerGrey);
+  overflow: hidden;
+  width: 100%;
+  height: 0%;
+  transition: .5s ease;
+}
+
+.overlayText {
+  display: block;
+  text-align:center;
+  /* white-space: nowrap; */
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.threeColumn > li:hover .textOverlay {
+  height: 100%;
+}
+#quoteContainer {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 1.25em;
+    padding-right: 1.25em; */
+    max-width: 720px;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    min-height: 370px;
+}
+
+#quoteHeading {
+  color: var(--light);
+  text-align: center;
+  padding-top: 1.2rem;
+  text-transform: uppercase;
+  font-size: 1.777rem;
+  letter-spacing: 0.30rem;
+}
+
+.quotes blockquote {
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0.5s ease-out 0s, transform 0.5s ease-in 0s;
+  position: absolute;
+  min-width: 75%;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.no-csstransitions .quotes blockquote,
+.no-csstransforms .quotes blockquote {
+   position:relative;
+}
+
+/* .quotes blockquote:first-child {
+    opacity: 0;
+    transform: translateY(-10px) scale(1.1);
+} */
+.quotes blockquote:first-child + blockquote {
+    opacity: 1;
+    z-index: 1;
+    transition: opacity 1.6s ease 0s;
+}
+.quotes blockquote p{
+  font-size:2rem;
+  font-weight:normal;
+  font-style:italic;
+  color:#898989;
+  margin-bottom: 0.25rem;
+}
+.quotes blockquote p:before {
+   content: '\201C';
+}
+.quotes blockquote p:after {
+   content: '\201D';
+}
+.quotes blockquote cite {
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #4f4f4f;
+}
+.quotes blockquote cite a {
+  /* font-size:14px; */
+  font-weight:normal;
 }
 
 @media only screen and (max-width: 360px) {
-    #scroll {
-        font-size: 1em;
+    #sectionOne {
+        font-size: 1.3em;
+    }
+    #quoteHeading {
+      font-size: 1.4rem;
+    }
+    .quotes blockquote p {
+      font-size:1.1rem;
+    }
+    .quotes blockquote cite a {
+      font-size:0.9rem;
+    }
+}
+@media only screen and (min-width: 361px) {
+    #quoteHeading {
+      font-size: 1.6rem;
+    }
+    .quotes blockquote p {
+      font-size:1.3rem;
+    }
+    .quotes blockquote cite a {
+      font-size:1.1rem;
     }
 }
 
@@ -162,10 +307,50 @@ h3 {
         width: 100%;
         min-height: 270px;
     }
+    #quoteHeading {
+      font-size: 1.8rem;
+    }
+    .quotes blockquote p {
+      font-size:1.6rem;
+    }
+    .quotes blockquote cite a {
+      font-size:1.4rem;
+    }
 }
 
 @media only screen and (min-width: 1040px) {
     .threeColumn > * {
         width: 33.3%;
     }
+    #quoteHeading {
+      font-size: 1.6rem;
+    }
+    .quotes blockquote p {
+      font-size:1.8rem;
+    }
+    .quotes blockquote cite a {
+      font-size:1.6rem;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0.2%;
+    min-width: 5px;
+    height: 0.2%;
+    min-height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 7px rgba(0,0,0,0.25);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #a8a8a8;
+    -webkit-box-shadow: inset 0 0 7px rgba(0,0,0,0.45);
 }

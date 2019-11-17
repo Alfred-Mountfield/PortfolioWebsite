@@ -10,6 +10,7 @@ import { PhotosPageComponent } from './pages/photos/photos-page.component';
 import { AboutPageComponent } from './pages/about/about-page.component';
 import { ProjectsPageComponent } from './pages/projects/projects-page.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     AboutPageComponent,
     ProjectsPageComponent,
     FooterComponent,
+    HeaderComponent,
   ],
   exports: [ AppComponent ],
   providers: [],

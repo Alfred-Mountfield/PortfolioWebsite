@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Moving to angular">
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Finalised migration of old components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/PersonalWebsite.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/css/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/images/camera.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/camera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/images/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/header.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/images/person.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/person.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/images/rain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/rain.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/images/tags.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/tags.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/images/tempCamera.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/tempCamera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/images/tempCoding.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/tempCoding.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/images/tempPerson.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/tempPerson.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/images/temppic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/temppic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/photo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_website/programming.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,21 +23,13 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>font</find>
-      <find>colour</find>
-      <find>hei</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -58,6 +38,7 @@
   </component>
   <component name="ProjectId" id="1TiZOMo82RQW0TNbA9EoU6eMu0A" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -69,6 +50,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\app\pages" />
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\app\shared" />
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\app\common_components" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\old_website" />
     </key>

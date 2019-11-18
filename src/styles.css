@@ -5,7 +5,7 @@ html {
   font-family: "Lato", sans-serif;
 }
 
-body {
+.main-body {
   margin: 0;
   height: 100%;
   --light: #DEE4E7;
@@ -13,6 +13,7 @@ body {
   --dark: #37474F;
   --darkGrey: #333333;
   --darkerGrey: #222222;
+  background-color: var(--darkGrey);
 }
 
 /*# sourceMappingURL=styles.css.map */

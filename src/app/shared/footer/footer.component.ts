@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faGithubSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 

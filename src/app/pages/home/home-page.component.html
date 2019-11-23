@@ -6,11 +6,11 @@
     <span class="last-name">Mountfield</span>
   </div>
   <div class="caption">
-    <span class="border" id="scroll">Scroll Down</span>
+    <span class="border" id="scroll" (click)="scrollDown()" style="cursor:pointer;">Scroll Down</span>
   </div>
 </div>
 
-<div class="container-fluid ">
+<div id="content" class="container-fluid ">
   <div class="row pageLinks">
     <div class="col-md-4 p-0">
       <a [routerLink]="['/projects']" style="background-color: #595959">

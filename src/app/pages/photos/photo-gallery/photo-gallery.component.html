@@ -1,4 +1,4 @@
-<div class="row photo-gallery-container">
+<div id= "photo-gallery-container" class="row m-0">
   <div *ngFor="let photo_col of photo_cols" class="col-lg-4 col-md-12 mb-4">
     <photo-thumbnail *ngFor="let photo of photo_col" [img]="photo"></photo-thumbnail>
   </div>

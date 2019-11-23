@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Updated photo carousel to use pictures in the asset folder, and to resize pictures appropriately">
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Added photo-gallery with 3 columns">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/home/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/home/home-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-carousel/photo-carousel.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-carousel/photo-carousel.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-carousel/photo-carousel.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-carousel/photo-carousel.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-carousel/photo-carousel.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-carousel/photo-carousel.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-carousel/photo-carousel.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-carousel/photo-carousel.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-gallery.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-gallery.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-gallery.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-gallery.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-gallery.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-gallery.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-gallery.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-gallery.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-thumbnail/photo-thumbnail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-thumbnail/photo-thumbnail.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-thumbnail/photo-thumbnail.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-thumbnail/photo-thumbnail.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-thumbnail/photo-thumbnail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-thumbnail/photo-thumbnail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-thumbnail/photo-thumbnail.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photo-gallery/photo-thumbnail/photo-thumbnail.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/footer/footer.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574536248117</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added photo-gallery with 3 columns">
+      <created>1574539846830</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574539846831</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +287,7 @@
     <MESSAGE value="Added photo carousel" />
     <MESSAGE value="Added photo carousel and header" />
     <MESSAGE value="Updated photo carousel to use pictures in the asset folder, and to resize pictures appropriately" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated photo carousel to use pictures in the asset folder, and to resize pictures appropriately" />
+    <MESSAGE value="Added photo-gallery with 3 columns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added photo-gallery with 3 columns" />
   </component>
 </project>

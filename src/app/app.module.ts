@@ -14,6 +14,8 @@ import { ProjectsPageComponent } from './pages/projects/projects-page.component'
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { PhotoCarouselComponent } from './pages/photos/photo-carousel/photo-carousel.component';
+import { PhotoGalleryComponent } from './pages/photos/photo-gallery/photo-gallery.component';
+import { PhotoThumbnailComponent } from './pages/photos/photo-gallery/photo-thumbnail/photo-thumbnail.component';
 
 @NgModule({
   imports: [
@@ -32,6 +34,8 @@ import { PhotoCarouselComponent } from './pages/photos/photo-carousel/photo-caro
     FooterComponent,
     HeaderComponent,
     PhotoCarouselComponent,
+    PhotoGalleryComponent,
+    PhotoThumbnailComponent,
   ],
   exports: [ AppComponent ],
   providers: [],

@@ -6,8 +6,10 @@ import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/n
   templateUrl: './photo-carousel.component.html',
   styleUrls: ['./photo-carousel.component.scss']
 })
+
 export class PhotoCarouselComponent {
-  images = [62, 83, 466, 965, 982, 1043, 738].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  range = Array.from(Array(17).keys()).map(x => ++x);
+  images = this.range.map((n) => `/assets/images/photo_gallery/${n}.jpg`);
 
   paused = false;
   unpauseOnArrow = false;

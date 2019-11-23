@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppComponent } from './app.component';
+import { SizeDetectorComponent } from './shared/size-detector/size-detector.component';
 import { HomePageComponent } from './pages/home/home-page.component';
 import { PhotosPageComponent } from './pages/photos/photos-page.component';
 import { AboutPageComponent } from './pages/about/about-page.component';
@@ -16,6 +17,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { PhotoCarouselComponent } from './pages/photos/photo-carousel/photo-carousel.component';
 import { PhotoGalleryComponent } from './pages/photos/photo-gallery/photo-gallery.component';
 import { PhotoThumbnailComponent } from './pages/photos/photo-gallery/photo-thumbnail/photo-thumbnail.component';
+import { ResizeService } from "./shared/size-detector/resize.service";
 
 @NgModule({
   imports: [
@@ -36,9 +38,10 @@ import { PhotoThumbnailComponent } from './pages/photos/photo-gallery/photo-thum
     PhotoCarouselComponent,
     PhotoGalleryComponent,
     PhotoThumbnailComponent,
+    SizeDetectorComponent,
   ],
   exports: [ AppComponent ],
-  providers: [],
+  providers: [ ResizeService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

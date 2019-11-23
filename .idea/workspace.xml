@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Updated home page to use bootstrap grids, and added header">
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Updated footer and header, added contact icons and copyright">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/projects/projects-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/projects/projects-page.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/projects/projects-page.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/projects/projects-page.component.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/projects/projects-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/projects/projects-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/projects/projects-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/projects/projects-page.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/footer/footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/footer/footer.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/footer/footer.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/footer/footer.component.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/footer/footer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/footer/footer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/footer/footer.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/shared/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/footer/footer.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/photos/photos-page.component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +44,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\app\pages\photos" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\css" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\app\shared" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\app\pages" />
-      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\app\common_components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574028827547</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated footer and header, added contact icons and copyright">
+      <created>1574120087675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574120087675</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +237,7 @@
     <MESSAGE value="Modified structure to allow for page 'components'" />
     <MESSAGE value="Added Bootstrap" />
     <MESSAGE value="Updated home page to use bootstrap grids, and added header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated home page to use bootstrap grids, and added header" />
+    <MESSAGE value="Updated footer and header, added contact icons and copyright" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated footer and header, added contact icons and copyright" />
   </component>
 </project>

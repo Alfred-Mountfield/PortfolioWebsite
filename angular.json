@@ -8,7 +8,7 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
-        }
+        },
       },
       "root": "",
       "sourceRoot": "src",
@@ -123,8 +123,14 @@
               "devServerTarget": "PersonalWebsite:serve:production"
             }
           }
+        },
+        "server": {
+          "options": {
+            "port": 4200
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "PersonalWebsite"
 }

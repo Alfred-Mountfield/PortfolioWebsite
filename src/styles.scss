@@ -1,8 +1,32 @@
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "../node_modules/bootstrap/scss/functions";
+
+@import "../node_modules/bootstrap/scss/variables";
+
 html {
   height: 100%;
-  font-size: 16px;
+  font-size: 0.7rem;
   background-color: #333333;
   font-family: 'Lato', sans-serif;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 0.8rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.0rem;
+  }
 }
 
 .main-body {

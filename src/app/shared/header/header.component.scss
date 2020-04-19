@@ -2,12 +2,16 @@
   height: 8%;
   font-family: 'Poiret One', "Bookman Old Style", SansSerif;
   padding-left: 1vw;
-  padding-top: 1vw;
   font-size: 2em;
   //background: #212529;
   //background-color: var(--darkerGrey);
   background-color: #252526;
   color: #b6b1b1;
+  vertical-align: middle;
+}
+
+span {
+  display: inline-block;
 }
 
 .last-name {

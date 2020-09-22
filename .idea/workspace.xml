@@ -1,43 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Migrating to React, Home and Footer done">
-      <change afterPath="$PROJECT_DIR$/src/components/header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about.module.css" afterDir="false" />
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Removing more of old site, migrated About page">
+      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/tempCoding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/projects.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/app/pages/home/home-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/old/src/app/pages/home/home-page.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/app/pages/home/home-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/old/src/app/pages/home/home-page.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/styles.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/homeBackground.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/appContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/appContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/users.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/users.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Snake" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -89,9 +61,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Alfred\IdeaProjects\PersonalWebsite\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\Alfred\IdeaProjects\PersonalWebsite\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets" />
@@ -258,7 +233,8 @@
       <workItem from="1597265711603" duration="654000" />
       <workItem from="1597783426586" duration="1815000" />
       <workItem from="1600366713045" duration="604000" />
-      <workItem from="1600783011196" duration="17436000" />
+      <workItem from="1600783011196" duration="19333000" />
+      <workItem from="1600805311454" duration="849000" />
     </task>
     <task id="LOCAL-00001" summary="Moving to angular">
       <created>1573945038460</created>
@@ -379,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600797983954</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Removing more of old site, migrated About page">
+      <created>1600803457795</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600803457795</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,13 +398,22 @@
     <MESSAGE value="Undid min-height for body due to webkit bug" />
     <MESSAGE value="Fixing scaling for smaller resolutions" />
     <MESSAGE value="Migrating to React, Home and Footer done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Migrating to React, Home and Footer done" />
+    <MESSAGE value="Removing more of old site, migrated About page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing more of old site, migrated About page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1600797982692">
+    <state x="552" y="181" key="#Plugins" timestamp="1600805292294">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600797982692" />
+    <state x="552" y="181" key="#Plugins/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805292294" />
+    <state x="810" y="484" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1600805801862">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="810" y="484" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805801862" />
+    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1600803456984">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600803456984" />
     <state x="629" y="318" key="EditFileWatcherDialog" timestamp="1600789422363">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -434,41 +426,41 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="287" key="FileDocumentManager.FileCacheConflict/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600785159246" />
-    <state width="1899" height="174" key="GridCell.Tab.0.bottom" timestamp="1600801057909">
+    <state width="1899" height="174" key="GridCell.Tab.0.bottom" timestamp="1600805946184">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600801057909" />
-    <state width="1899" height="174" key="GridCell.Tab.0.center" timestamp="1600801057909">
+    <state width="1899" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805946184" />
+    <state width="1899" height="174" key="GridCell.Tab.0.center" timestamp="1600805946184">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600801057909" />
-    <state width="1899" height="174" key="GridCell.Tab.0.left" timestamp="1600801057909">
+    <state width="1899" height="174" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805946184" />
+    <state width="1899" height="174" key="GridCell.Tab.0.left" timestamp="1600805946184">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600801057909" />
-    <state width="1899" height="174" key="GridCell.Tab.0.right" timestamp="1600801057909">
+    <state width="1899" height="174" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805946184" />
+    <state width="1899" height="174" key="GridCell.Tab.0.right" timestamp="1600805946184">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600801057909" />
+    <state width="1899" height="174" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805946184" />
     <state x="461" y="185" key="SettingsEditor" timestamp="1600784992016">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600784992016" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600797985307">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600803458926">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600797985307" />
-    <state x="-814" y="77" width="808" height="836" maximized="true" key="dock-window-1" timestamp="1600797380251">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600803458926" />
+    <state x="-814" y="77" width="808" height="836" maximized="true" key="dock-window-1" timestamp="1600805689023">
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
-    <state x="-814" y="77" width="808" height="836" maximized="true" key="dock-window-1/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600797380251" />
+    <state x="-814" y="77" width="808" height="836" maximized="true" key="dock-window-1/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805689023" />
     <state x="667" y="273" width="585" height="534" key="find.popup" timestamp="1600790515422">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="667" y="273" width="585" height="534" key="find.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600790515422" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1600789943924">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1600805762380">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600789943924" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805762380" />
   </component>
 </project>

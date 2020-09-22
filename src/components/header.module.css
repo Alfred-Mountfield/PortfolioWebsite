@@ -1,0 +1,19 @@
+.fullName {
+    height: 8%;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    background-color: #252526;
+    vertical-align: middle;
+}
+
+.fullName span {
+    font-family: 'Poiret One', "Bookman Old Style", SansSerif;
+    display: inline-block;
+    font-size: 2em;
+    color: #b6b1b1;
+}
+
+.lastName {
+    font-weight: bold;
+}
+

@@ -1,9 +1,19 @@
-import React from "react"
+import React from 'react'
+import Row from 'react-bootstrap/Row'
+import classNames from 'classnames'
 
-export type HeaderProps = {
-  headerText: string
+import styles from './header.module.css'
+import { Link } from 'gatsby'
+
+const Header: React.FC = props => {
+  return (
+    <Row className={classNames(styles.fullName, "align-items-center", "m-0")}>
+        <Link to={"/"} style={{textDecoration: 'none'}}>
+          <span className={styles.firstName}>Alfred</span>
+          <span className={styles.lastName}>Mountfield</span>
+        </Link>
+    </Row>
+  )
 }
 
-export default function Header(props: HeaderProps) {
-  return <h1>{props.headerText}</h1>
-}
+export default Header

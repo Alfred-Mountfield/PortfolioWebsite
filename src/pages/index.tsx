@@ -2,13 +2,17 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { Link } from 'gatsby'
 
 import AppContainer from '../components/appContainer'
 
 import styles from './index.module.css'
-import { Link } from 'gatsby'
 
-const Home: React.FC = props => {
+type HomeProps = {
+  location: Location
+}
+
+const Home: React.FC<HomeProps> = props => {
   const bodyRef = React.useRef<HTMLInputElement>(null)
   function scrollDown() {
     bodyRef.current?.scrollIntoView({
@@ -17,7 +21,7 @@ const Home: React.FC = props => {
   }
 
   return (
-    <AppContainer>
+    <AppContainer location={props.location}>
       <div className={styles.headPic}>
         <div className={styles.fullName}>
           <span className={styles.firstName}>Alfred</span>

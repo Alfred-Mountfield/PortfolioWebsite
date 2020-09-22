@@ -2,13 +2,20 @@ import React from "react"
 
 import styles from "./appContainer.module.css"
 import Footer from './footer'
+import Header from './header'
 
-export const AppContainer: React.FC = props => {
+type AppContainerProps = {
+  location: Location
+}
+declare var __PATH_PREFIX__: string
+
+
+export const AppContainer: React.FC<AppContainerProps> = props => {
+  const rootPath = `${__PATH_PREFIX__}/`
   return (
     <div className={styles.appContainer}>
-      <div className={styles.contentsContainer}>
-        {props.children}
-      </div>
+      {props.location.pathname !== rootPath ? <Header /> : null}
+      <div className={styles.contentsContainer}>{props.children}</div>
       <Footer />
     </div>
   )

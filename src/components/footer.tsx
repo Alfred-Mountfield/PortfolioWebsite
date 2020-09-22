@@ -34,7 +34,7 @@ const Footer: React.FC = props => {
           </div>
         </Row>
         <Row className="justify-content-md-center p-2">
-          <Col lg={4} className=" col col-lg-4 copyright">
+          <Col lg={4} className={styles.copyright}>
             <p className="text-center my-auto">Copyright © 2020. Alfred Mountfield. All rights reserved.</p>
           </Col>
         </Row>

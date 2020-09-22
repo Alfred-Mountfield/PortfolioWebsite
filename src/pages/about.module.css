@@ -1,0 +1,34 @@
+.sectionHeader {
+    font-family: 'Poiret One', "Bookman Old Style", SansSerif;
+    font-size: 2em;
+    color: #b6b1b1;
+    text-align: center;
+}
+
+.paraHeader {
+    font-family: 'Poiret One', "Bookman Old Style", SansSerif;
+    font-weight: bolder;
+    font-size: 2em;
+    color: #b6b1b1;
+}
+
+.paraContent {
+    font-family: 'Poiret One', "Bookman Old Style", SansSerif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #b6b1b1;
+    text-align: center;
+}
+
+.experienceLocation {
+    font-family: 'Poiret One', "Bookman Old Style", SansSerif;
+    color: #b6b1b1;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.experienceExplanation {
+    font-family: 'Poiret One', "Bookman Old Style", SansSerif;
+    color: #b6b1b1;
+    font-size: 1.3em;
+}

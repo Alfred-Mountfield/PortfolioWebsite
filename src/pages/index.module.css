@@ -1,6 +1,6 @@
 .headPic {
     height: 100vh;
-    background: dimgrey url(../assets/images/header.jpg) 100% 100% no-repeat;
+    background: dimgrey url(../assets/images/homeBackground.jpg) 100% 100% no-repeat;
     background-position: 50% 45%;
     background-size: cover;
     background-attachment: fixed;

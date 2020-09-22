@@ -1,0 +1,58 @@
+.footerContainer {
+    min-height: 12%;
+    background-color: #252526;
+    bottom: 0;
+}
+
+p {
+    color: #8C8C8C;
+}
+
+.socialBubbles {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.socialBubbles a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 0 0.2em;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    color: #8C8C8C;
+    background-color: #2B2B2B;
+}
+
+.socialBubbles a svg {
+    display: flex;
+    align-items: center;
+}
+
+/* footer social icons */
+
+.socialBubbles a.icoLinkedin:hover {
+    background-color: #0f9ede;
+}
+
+.socialBubbles a.icoEmail:hover {
+    background-color: #8d0257;
+}
+
+.socialBubbles a.icoGithub:hover {
+    background-color: #3B5998;
+}
+
+.socialBubbles a.icoInstagram:hover {
+    background-color: #de4b11;
+}
+
+.socialBubbles a:hover {
+    color: var(--darkerGrey);
+}
+

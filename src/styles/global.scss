@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/bootstrap";
+@import "variables.css";
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body, #___gatsby {
+  height: 100%;
+}
+
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
+html {
+  font-size: 0.7rem;
+  background-color: #333333;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--darkGrey);
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 0.8rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.0rem;
+  }
+}

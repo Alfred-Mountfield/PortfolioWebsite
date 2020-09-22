@@ -1,0 +1,46 @@
+<!--Temp home page-->
+
+<div class="head-pic">
+  <div class="full-name">
+    <span class="first-name">Alfred</span>
+    <span class="last-name">Mountfield</span>
+  </div>
+  <div class="caption">
+    <span class="border" id="scroll" (click)="scrollDown()" style="cursor:pointer;">Scroll Down</span>
+  </div>
+</div>
+
+<div id="content" class="container-fluid ">
+  <div class="row page-links">
+    <div class="col-md-4 p-0">
+      <a [routerLink]="['/about']" style="background-color: #262626">
+        <img class="img-fluid fit-image" src="../../../assets/images/tempPerson.jpg">
+        <div class="overlay-container">
+          <div class="text-overlay">
+            <div class="overlay-text">About</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 p-0">
+      <a [routerLink]="['/projects']" style="background-color: #595959">
+        <img class="img-fluid fit-image" src="../../../assets/images/tempCoding.jpg">
+        <div class="overlay-container">
+          <div class="text-overlay">
+            <div class="overlay-text">Coding Snippets and Projects</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 p-0">
+      <a [routerLink]="['/photos']" style="background-color: #8C8C8C">
+        <img class="img-fluid fit-image" src="../../../assets/images/tempCamera.png">
+        <div class="overlay-container">
+          <div class="text-overlay">
+            <div class="overlay-text">Photography</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

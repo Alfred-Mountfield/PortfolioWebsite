@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Adding Projects page and graphql schema">
-      <change afterPath="$PROJECT_DIR$/src/pages/photos.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/photos.tsx" afterDir="false" />
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Adding Photo Carousel">
+      <change afterPath="$PROJECT_DIR$/src/components/photoGallery.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/photoGallery.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/appContainer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/appContainer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/photos.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/photos.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/photos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/photos.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,22 +60,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Alfred\IdeaProjects\PersonalWebsite\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.jsgraphql" />
     <property name="ts.external.directory.path" value="C:\Users\Alfred\IdeaProjects\PersonalWebsite\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\gallery" />
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\gallery\carousel" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\config" />
-      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.develop">
+  <component name="RunManager" selected="JavaScript Debug.Debug Browser">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -230,7 +232,7 @@
       <workItem from="1597783426586" duration="1815000" />
       <workItem from="1600366713045" duration="604000" />
       <workItem from="1600783011196" duration="19333000" />
-      <workItem from="1600805311454" duration="5710000" />
+      <workItem from="1600805311454" duration="12006000" />
     </task>
     <task id="LOCAL-00001" summary="Moving to angular">
       <created>1573945038460</created>
@@ -365,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600806313428</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adding Photo Carousel">
+      <created>1600811144389</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600811144389</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,25 +412,26 @@
     <MESSAGE value="Migrating to React, Home and Footer done" />
     <MESSAGE value="Removing more of old site, migrated About page" />
     <MESSAGE value="Adding Projects page and graphql schema" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Projects page and graphql schema" />
+    <MESSAGE value="Adding Photo Carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Photo Carousel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Plugins" timestamp="1600805292294">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="181" key="#Plugins/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805292294" />
-    <state x="414" y="195" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600807631378">
+    <state x="414" y="195" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600815365835">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="414" y="195" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600807631378" />
+    <state x="414" y="195" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600815365835" />
     <state x="810" y="484" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1600805801862">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="810" y="484" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805801862" />
-    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1600806312880">
+    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1600811143898">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600806312880" />
+    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600811143898" />
     <state x="629" y="318" key="EditFileWatcherDialog" timestamp="1600789422363">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -434,22 +444,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="287" key="FileDocumentManager.FileCacheConflict/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600785159246" />
-    <state width="1899" height="174" key="GridCell.Tab.0.bottom" timestamp="1600810068884">
+    <state width="1899" height="174" key="GridCell.Tab.0.bottom" timestamp="1600815354965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600810068884" />
-    <state width="1899" height="174" key="GridCell.Tab.0.center" timestamp="1600810068884">
+    <state width="1899" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600815354965" />
+    <state width="1899" height="174" key="GridCell.Tab.0.center" timestamp="1600815354965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600810068884" />
-    <state width="1899" height="174" key="GridCell.Tab.0.left" timestamp="1600810068884">
+    <state width="1899" height="174" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600815354965" />
+    <state width="1899" height="174" key="GridCell.Tab.0.left" timestamp="1600815354964">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600810068884" />
-    <state width="1899" height="174" key="GridCell.Tab.0.right" timestamp="1600810068884">
+    <state width="1899" height="174" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600815354964" />
+    <state width="1899" height="174" key="GridCell.Tab.0.right" timestamp="1600815354965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600810068884" />
+    <state width="1899" height="174" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600815354965" />
     <state width="1899" height="354" key="GridCell.Tab.1.bottom" timestamp="1600808854449">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -482,14 +492,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1899" height="354" key="GridCell.Tab.2.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600808854449" />
-    <state x="461" y="185" key="SettingsEditor" timestamp="1600784992016">
+    <state x="461" y="185" key="SettingsEditor" timestamp="1600815386179">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600784992016" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600806314631">
+    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600815386179" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600811145494">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600806314631" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600811145494" />
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600815880308">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600815880308" />
     <state x="-814" y="77" width="808" height="836" maximized="true" key="dock-window-1" timestamp="1600805689023">
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
@@ -498,9 +512,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="667" y="273" width="585" height="534" key="find.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600790515422" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1600805762380">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1600815368838">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805762380" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600815368838" />
   </component>
 </project>

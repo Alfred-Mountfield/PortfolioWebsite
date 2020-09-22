@@ -22,7 +22,7 @@
     }
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
     .carouselContainer div {
         height: 80vh;
     }

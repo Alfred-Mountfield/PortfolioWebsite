@@ -8,11 +8,12 @@ import { FluidObject } from 'gatsby-image/index'
 import classNames from 'classnames'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons/faChevronDown'
+import { graphql, useStaticQuery } from 'gatsby'
 
 import AppContainer from '../components/appContainer'
+import PhotoGallery from '../components/photoGallery'
 
 import styles from './photos.module.scss'
-import { graphql, useStaticQuery } from 'gatsby'
 
 type PhotosProps = {
   location: Location
@@ -27,30 +28,30 @@ const Photos: React.FC<PhotosProps> = props => {
     })
   }
 
-  // get Images
-  const data = useStaticQuery(graphql`
-    query GetGalleryPhotos {
-      allFile(filter: { extension: { regex: "/(jpg)|(png)/" }, relativeDirectory: { eq: "gallery" } }) {
-        edges {
-          node {
-            childImageSharp {
-              fluid(maxWidth: 2000, quality: 90) {
-                ...GatsbyImageSharpFluid
-                ...GatsbyImageSharpFluid_withWebp
-                ...GatsbyImageSharpFluidLimitPresentationSize
+  // Get Carousel Images
+  const carouselImagesData = useStaticQuery(graphql`
+      query getCarouselPhotos {
+          allFile(filter: { extension: { regex: "/(jpg)|(png)/" }, relativeDirectory: { eq: "gallery/carousel" } }) {
+              edges {
+                  node {
+                      childImageSharp {
+                          fluid(maxWidth: 2000, quality: 90) {
+                              ...GatsbyImageSharpFluid
+                              ...GatsbyImageSharpFluid_withWebp
+                              ...GatsbyImageSharpFluidLimitPresentationSize
+                          }
+                      }
+                  }
               }
-            }
           }
-        }
       }
-    }
   `)
 
   return (
     <AppContainer location={props.location}>
       <Container className={styles.carouselContainer}>
         <Carousel>
-          {data.allFile.edges.map(({ node }: { node: { childImageSharp: { fluid: FluidObject | FluidObject[] } } }) => (
+          {carouselImagesData.allFile.edges.map(({ node }: { node: { childImageSharp: { fluid: FluidObject | FluidObject[] } } }) => (
             <Carousel.Item>
               <Img fluid={node.childImageSharp.fluid} />
             </Carousel.Item>
@@ -62,7 +63,7 @@ const Photos: React.FC<PhotosProps> = props => {
           <FontAwesomeIcon icon={faChevronDown} onClick={scrollDown} className={'align-middle'} size={'2x'} style={{ cursor: 'pointer' }} />
         </Col>
       </Row>
-      {/*<PhotoGallery />*/}
+      <PhotoGallery ref={bodyRef} />
     </AppContainer>
   )
 }

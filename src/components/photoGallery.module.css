@@ -1,0 +1,8 @@
+.galleryContainer {
+    width: 100vw;
+    max-width: 100% !important;
+}
+
+.galleryColumn > div {
+    margin: 5% 0;
+}

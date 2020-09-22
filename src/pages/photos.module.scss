@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/bootstrap";
+
+.carouselContainer img {
+    object-fit: contain!important;
+}
+
+@include media-breakpoint-up(xs) {
+    .carouselContainer div {
+        height: 30vh;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .carouselContainer div {
+        height: 40vh;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .carouselContainer div {
+        height: 50vh;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .carouselContainer div {
+        height: 80vh;
+    }
+}
+
+
+.downArrow {
+    max-width: 100% !important;
+    min-height: 5%;
+    color: #8C8C8C;
+}
+
+.downArrow:hover {
+    color: #ffffff;
+}

@@ -13,6 +13,7 @@ type HomeProps = {
 }
 
 const Home: React.FC<HomeProps> = props => {
+
   const bodyRef = React.useRef<HTMLInputElement>(null)
   function scrollDown() {
     bodyRef.current?.scrollIntoView({

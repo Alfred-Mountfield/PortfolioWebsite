@@ -2,6 +2,7 @@
     min-height: 100vh;
     flex-flow: column;
     display: flex;
+    background-color: var(--darkGrey);
 }
 
 .contentsContainer {

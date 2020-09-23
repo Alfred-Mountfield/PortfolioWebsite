@@ -3,6 +3,12 @@
     padding-bottom: 5%;
 }
 
+.projectThumbnail {
+    height: 80%;
+    width: 100%;
+    max-width: 100%!important;
+}
+
 .projectTitle {
     color: #d0d0d0;
     background: #595959;

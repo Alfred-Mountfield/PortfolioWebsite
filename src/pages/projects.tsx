@@ -9,6 +9,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import AppContainer from '../components/appContainer'
 
 import styles from './projects.module.css'
+import { FluidObject } from 'gatsby-image/index'
 
 type ProjectsProps = {
   location: Location
@@ -17,50 +18,67 @@ type ProjectsProps = {
 const Projects: React.FC<ProjectsProps> = props => {
   const bodyRef = React.useRef<HTMLInputElement>(null)
 
-  // get Images
-  const data = useStaticQuery(graphql`
-    query MyQuery {
-      file(relativePath: { eq: "tempCoding.jpg" }) {
-        id
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
+  // Get Project Thumbnails
+  const projectThumbnailsData = useStaticQuery(graphql`
+    query getProjectThumbnails {
+      allFile(filter: { extension: { regex: "/(jpg)|(png)/" }, relativeDirectory: { eq: "projectThumbnails" } }) {
+        edges {
+          node {
+            childImageSharp {
+              fluid(maxWidth: 800, quality: 70) {
+                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluidLimitPresentationSize
+                originalName
+              }
+            }
           }
         }
       }
     }
   `)
 
+  const projects = [
+    {
+      title: 'This website',
+      picture: 'personalWebsite.png',
+    },
+    {
+      title: 'Purpose',
+      picture: 'tempCoding.jpg',
+    },
+    {
+      title: 'KachiMoro Cli',
+      picture: 'tempCoding.jpg',
+    },
+    {
+      title: 'TODO',
+      picture: 'tempCoding.jpg',
+    },
+    {
+      title: 'Potato',
+      picture: 'tempCoding.jpg',
+    },
+  ]
+
   return (
     <AppContainer location={props.location}>
       <Container className={styles.mainContainer}>
         <Row className="m-1 justify-content-center">
-          <Col className="col-md-3 p-0 m-4">
-            <Img className="img-fluid fit-image" fluid={data.file.childImageSharp.fluid} />
-            <div className={styles.projectTitle}>Coding Snippets and Projects</div>
-          </Col>
-          <Col className="col-md-3 p-0 m-4">
-            <Img className="img-fluid fit-image" fluid={data.file.childImageSharp.fluid} />
-            <div className={styles.projectTitle}>Coding Snippets and Projects</div>
-          </Col>
-          <Col className="col-md-3 p-0 m-4">
-            <Img className="img-fluid fit-image" fluid={data.file.childImageSharp.fluid} />
-            <div className={styles.projectTitle}>Coding Snippets and Projects</div>
-          </Col>
-        </Row>
-        <Row className="m-1 justify-content-center">
-          <Col className="col-md-3 p-0 m-4">
-            <Img className="img-fluid fit-image" fluid={data.file.childImageSharp.fluid} />
-            <div className={styles.projectTitle}>Coding Snippets and Projects</div>
-          </Col>
-          <Col className="col-md-3 p-0 m-4">
-            <Img className="img-fluid fit-image" fluid={data.file.childImageSharp.fluid} />
-            <div className={styles.projectTitle}>Coding Snippets and Projects</div>
-          </Col>
-          <Col className="col-md-3 p-0 m-4">
-            <Img className="img-fluid fit-image" fluid={data.file.childImageSharp.fluid} />
-            <div className={styles.projectTitle}>Coding Snippets and Projects</div>
-          </Col>
+          {projects.map(({ title, picture }: { title: string; picture: string }) => {
+            return (
+              <Col md={4} lg={3} className="p-0 m-4">
+                <Img
+                  className={styles.projectThumbnail}
+                  fluid={projectThumbnailsData.allFile.edges.find(
+                    ({ node }: { node: { childImageSharp: { fluid: FluidObject & { originalName: string } } } }) =>
+                      node.childImageSharp.fluid.originalName === picture
+                  ).node.childImageSharp.fluid}
+                />
+                <div className={styles.projectTitle}>{title}</div>
+              </Col>
+            )
+          })}
         </Row>
       </Container>
     </AppContainer>

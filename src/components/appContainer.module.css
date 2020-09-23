@@ -10,4 +10,5 @@
     display: flex;
     flex: 1;
     flex-flow: column wrap;
+    font-family: 'Poiret One', "Bookman Old Style", SansSerif, serif;
 }

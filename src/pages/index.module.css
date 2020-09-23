@@ -1,6 +1,5 @@
 .headPic {
     height: 100vh;
-    background: dimgrey url(../assets/images/homeBackground.jpg) 100% 100% no-repeat;
     background-position: 50% 45%;
     background-size: cover;
     background-attachment: fixed;
@@ -26,7 +25,7 @@
 }
 
 .fullName {
-    font-family: 'Poiret One', "Bookman Old Style", SansSerif;
+    font-family: 'Poiret One', "Bookman Old Style", SansSerif, serif;
     padding-left: 1vw;
     padding-top: 1vw;
     font-size: 2em;
@@ -57,12 +56,16 @@
     width: 100%;
 }
 
+/* Resize the images on the page links so that they fill up the divs */
+.pageLinks a > div {
+    height: 100%;
+}
 
 .overlayContainer {
     display:block;
     position: absolute;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    /*margin-left: 0 !important;*/
+    /*margin-right: 0 !important;*/
     height: 100%;
     width:100%;
     top: 0;

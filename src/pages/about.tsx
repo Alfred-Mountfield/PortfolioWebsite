@@ -1,7 +1,8 @@
-import React from "react"
+import React from 'react'
 import AppContainer from '../components/appContainer'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
 import classNames from 'classnames'
 
 import styles from './about.module.css'
@@ -13,65 +14,111 @@ type AboutProps = {
 export const About: React.FC<AboutProps> = props => {
   return (
     <AppContainer location={props.location}>
-      <Row className="mt-5">
-        <Col xs={10} lg={6} className="m-0 mb-4 ml-lg-5 ml-2">
-          <h1 className={styles.paraHeader}>Lorem Ipsum Dolor Sit Amet</h1>
-          <p className={styles.paraContent}>"Computer Science, Software Engineering, Problem-Solving, Photography, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-            non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum."
-          </p>
-        </Col>
-      </Row>
-      <Row className="row m-0 justify-content-end">
-        <Col className="col-10 col-lg-6 mb-4 mr-lg-5 mr-2">
-          <h1 className={styles.paraHeader}>Lorem Ipsum Dolor Sit Amet</h1>
-          <p className={styles.paraContent}>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-        </Col>
-      </Row>
-      <Row className="m-0">
-        <Col className="m-0 col-10 col-lg-6 mb-4 ml-lg-5 ml-2">
-          <h1 className={styles.paraHeader}>Lorem Ipsum Dolor Sit Amet</h1>
-          <p className={styles.paraContent}>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-        </Col>
-      </Row>
+      <Container>
+        <Row className="mt-5">
+          <Col xs={10} lg={6} className="m-0 mb-4 ml-lg-5 ml-2">
+            <h1 className={styles.paraHeader}>What I love</h1>
+            <p className={styles.paraContent}>
+              <ul>
+                <li>Encountering, understanding, and solving, problems</li>
+                <li>Designing</li>
+                <li>Tinkering</li>
+                <li>Problem Solving</li>
+              </ul>
+            </p>
+          </Col>
+        </Row>
+        <Row className="row m-0 justify-content-end">
+          <Col className="col-10 col-lg-6 mb-4 mr-lg-5 mr-2">
+            <h1 className={styles.paraHeader}>How I like to spend my time</h1>
+            <p className={styles.paraContent}>
+              <ul>
+                <li>Learning new (and often useless) skills</li>
+                <li>Climbing</li>
+                <li>Exploring</li>
+                <li>Cooking</li>
+                <li>Surfing</li>
+              </ul>
+            </p>
+          </Col>
+        </Row>
+        <Row className="m-0">
+          <Col className="m-0 col-10 col-lg-6 mb-4 ml-lg-5 ml-2">
+            <h1 className={styles.paraHeader}>I work best when</h1>
+            <p className={styles.paraContent}>
+              <ul>
+                <li>I know <i>why</i> something needs to be done</li>
+                <li>I know what I'm doing matters</li>
+                <li>When the work is challenging</li>
+              </ul>
+            </p>
+          </Col>
+        </Row>
+      </Container>
 
-      <h1 className={classNames(styles.sectionHeader, "mt-5 mb-5")}>——— Experience ———</h1>
+      <Container>
+        <h1 className={classNames(styles.sectionHeader, 'mt-5 mb-5')}>——— Experience ———</h1>
+        <Row className={classNames(styles.locationExplanationRow, 'justify-content-center')}>
+          <Col md={2} className={styles.location}>
+            Improbable Worlds Limited
+            <br />
+            <span className={styles.dates}>June 2020 - September 2020</span>
+          </Col>
+          <Col lg={4} md={6} className={styles.explanation}>
+            Worked in a team focusing on complex orchestration of game servers for multiplayer games
+          </Col>
+          <Col lg={4} md={6} className={styles.explanation}>Golang, React (Typescript, JSX), Kubernetes, Docker</Col>
+        </Row>
+        <Row className={classNames(styles.locationExplanationRow, 'justify-content-center')}>
+          <Col md={2} className={styles.location}>
+            Morgan Stanley
+            <br />
+            <span className={styles.dates}>June 2019 - June 2020</span>
+          </Col>
+          <Col lg={4} md={6}  className={styles.explanation}>
+            Worked in a Kanban team in Prime Brokerage Technology focusing on API solutions to pave the way to cloud within the division and
+            firm.
+          </Col>
+          <Col lg={4} md={6}  className={styles.explanation}>
+            Java (Boot, Cloud, Reactive), Python, Network Security (OAuth, HTTPS, Kerberos)
+          </Col>
+        </Row>
+        <Row className={classNames(styles.locationExplanationRow, 'justify-content-center')}>
+          <Col md={2} className={styles.location} />
+          <Col lg={4} md={6}  className={styles.explanation}>
+            Worked in a Scrum Team focusing on a regulatory process in Corporate Finance Technology
+          </Col>
+          <Col lg={4} md={6} className={styles.explanation}>
+            Java (Spring, JAXB), Python (Pandas, Flask, SQLAlchemy), AppDynamics, Splunk
+          </Col>
+        </Row>
+      </Container>
 
-      <Row className={classNames("m-0 mt-1 justify-content-center")}>
-        <Col className={classNames("col-md-2", styles.experienceLocation)}>Bavarian International School gAG</Col>
-        <Col className={classNames("col-lg-4 col-md-6", styles.experienceLocation)}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        </Col>
-      </Row>
-      <Row className={classNames("m-0 mt-1 justify-content-center")}>
-        <Col className={classNames("col-md-2", styles.experienceLocation)}>University of Manchester</Col>
-        <Col className={classNames("col-lg-4", "col-md-6", styles.experienceLocation)}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        </Col>
-      </Row>
-      <Row className={classNames("m-0 mt-1 justify-content-center")}>
-        <Col className={classNames("col-md-2", styles.experienceLocation)}>Morgan Stanley</Col>
-        <Col className={classNames("col-lg-4", "col-md-6", styles.experienceLocation)}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        </Col>
-      </Row>
-      <Row className="spacer mt-5"/>
+      <Container>
+        <h1 className={classNames(styles.sectionHeader, 'mt-5 mb-5')}>——— Education ———</h1>
+        <Row className={classNames(styles.locationExplanationRow, 'm-0 mt-1 justify-content-center')}>
+          <Col md={2} className={styles.location}>
+            University of Manchester
+            <br />
+            <span className={styles.dates}>2016-2021</span>
+          </Col>
+          <Col lg={4} md={6} className={styles.explanation}>
+            BSc (Hons) Computer Science and Mathematics with Industrial Experience
+          </Col>
+        </Row>
+        <div className={"w-100"} />
+        <Row className={classNames(styles.locationExplanationRow, 'm-0 mt-1 justify-content-center')}>
+          <Col md={2} className={styles.location}>
+            Bavarian International School gAG
+            <br />
+            <span className={styles.dates}>2012-2016</span>
+          </Col>
+          <Col lg={4} md={6} className={styles.explanation}>
+            International Baccalaureate DP (Diploma Programme) and MYP (Middle Years Programme)
+          </Col>
+        </Row>
+        <Row className="spacer mt-5" />
+      </Container>
     </AppContainer>
   )
 }

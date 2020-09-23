@@ -2,7 +2,9 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import { Link } from 'gatsby'
+import { graphql, Link, useStaticQuery } from 'gatsby'
+import BackgroundImage from 'gatsby-background-image'
+import Img from 'gatsby-image'
 
 import AppContainer from '../components/appContainer'
 
@@ -13,40 +15,77 @@ type HomeProps = {
 }
 
 const Home: React.FC<HomeProps> = props => {
+  const imageData = useStaticQuery(graphql`
+    query GetHomeBackground {
+      homeBackground: file(relativePath: { eq: "homeBackground.jpg" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 2000, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyImageSharpFluidLimitPresentationSize
+          }
+        }
+      }
+      about: file(relativePath: { eq: "tempCoding.jpg" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 700, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyImageSharpFluidLimitPresentationSize
+          }
+        }
+      }
+      coding: file(relativePath: { eq: "tempCoding.jpg" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 700, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyImageSharpFluidLimitPresentationSize
+          }
+        }
+      }
+      gallery: file(relativePath: { eq: "gallery/carousel/Lying Rabbit.jpg" }) {
+        id
+        childImageSharp {
+          fluid(maxWidth: 700, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyImageSharpFluidLimitPresentationSize
+          }
+        }
+      }
+    }
+  `)
+  const homeImage = imageData.homeBackground.childImageSharp.fluid
+  const aboutImage = imageData.about.childImageSharp.fluid
+  const codingImage = imageData.coding.childImageSharp.fluid
+  const galleryImage = imageData.gallery.childImageSharp.fluid
 
   const bodyRef = React.useRef<HTMLInputElement>(null)
+
   function scrollDown() {
     bodyRef.current?.scrollIntoView({
-      behavior: "smooth"
+      behavior: 'smooth',
     })
   }
 
   return (
     <AppContainer location={props.location}>
-      <div className={styles.headPic}>
+      <BackgroundImage className={styles.headPic} fluid={homeImage}>
         <div className={styles.fullName}>
           <span className={styles.firstName}>Alfred</span>
           <span className={styles.lastName}>Mountfield</span>
         </div>
         <div className={styles.caption}>
-          <span
-            className={styles.border}
-            id="scroll"
-            onClick={scrollDown}
-            style={{ cursor: 'pointer' }}
-          >
+          <span className={styles.border} id="scroll" onClick={scrollDown} style={{ cursor: 'pointer' }}>
             Scroll Down
           </span>
         </div>
-      </div>
+      </BackgroundImage>
       <Container id="content" ref={bodyRef} fluid>
         <Row className={styles.pageLinks}>
           <Col md={4} className="p-0">
-            <Link to={"/about"} style={{ backgroundColor: '#262626' }}>
-              <img
-                className="img-fluid fit-image"
-                src="../../../assets/images/tempPerson.jpg"
-              />
+            <Link to={'/about'}>
+              <Img fluid={aboutImage} />
               <div className={styles.overlayContainer}>
                 <div className={styles.textOverlay}>
                   <div className={styles.overlayText}>About</div>
@@ -55,26 +94,18 @@ const Home: React.FC<HomeProps> = props => {
             </Link>
           </Col>
           <Col md={4} className="p-0">
-            <Link to={"/projects"} style={{ backgroundColor: '#595959' }}>
-              <img
-                className="img-fluid fit-image"
-                src="../../../assets/images/tempCoding.jpg"
-              />
+            <Link to={'/projects'}>
+              <Img fluid={codingImage} />
               <div className={styles.overlayContainer}>
                 <div className={styles.textOverlay}>
-                  <div className={styles.overlayText}>
-                    Coding Snippets and Projects
-                  </div>
+                  <div className={styles.overlayText}>Coding Snippets and Projects</div>
                 </div>
               </div>
             </Link>
           </Col>
           <Col md={4} className="p-0">
-            <Link to={"/photos"} style={{ backgroundColor: '#8C8C8C' }}>
-              <img
-                className="img-fluid fit-image"
-                src="../../../assets/images/tempCamera.png"
-              />
+            <Link to={'/photos'}>
+              <Img fluid={galleryImage} />
               <div className={styles.overlayContainer}>
                 <div className={styles.textOverlay}>
                   <div className={styles.overlayText}>Photography</div>

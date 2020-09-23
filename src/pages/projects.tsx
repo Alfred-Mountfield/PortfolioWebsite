@@ -1,6 +1,7 @@
 import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
 import Img from 'gatsby-image'
 
 import { useStaticQuery, graphql } from 'gatsby'
@@ -32,7 +33,7 @@ const Projects: React.FC<ProjectsProps> = props => {
 
   return (
     <AppContainer location={props.location}>
-      <div className={styles.mainContainer}>
+      <Container className={styles.mainContainer}>
         <Row className="m-1 justify-content-center">
           <Col className="col-md-3 p-0 m-4">
             <Img className="img-fluid fit-image" fluid={data.file.childImageSharp.fluid} />
@@ -61,7 +62,7 @@ const Projects: React.FC<ProjectsProps> = props => {
             <div className={styles.projectTitle}>Coding Snippets and Projects</div>
           </Col>
         </Row>
-      </div>
+      </Container>
     </AppContainer>
   )
 }

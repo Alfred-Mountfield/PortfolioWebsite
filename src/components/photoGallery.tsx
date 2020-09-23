@@ -17,7 +17,7 @@ const PhotoGallery = React.forwardRef<Ref, Props>((props, ref) => {
   // Get All Images
   const allImagesData = useStaticQuery(graphql`
     query GetAllGalleryPhotos {
-      allFile(filter: { extension: { regex: "/(jpg)|(png)/" }, relativeDirectory: { eq: "gallery" } }) {
+      allFile(filter: { extension: { regex: "/(jpg)|(png)/" }, relativeDirectory: {regex: "/gallery*/"} }) {
         edges {
           node {
             childImageSharp {

@@ -43,7 +43,7 @@ const PortfolioWebsite: React.FC<PortfolioWebsiteProps> = props => {
         description={description}
         techStack={['React', 'Gatsby']}
         link={'/'}
-        codeLink={'https://github.com/Alfred-Mountfield/PersonalWebsite'}
+        codeLink={'https://github.com/Alfred-Mountfield/PortfolioWebsite'}
       />
       <Link className={styles.backButton} to={".."}>Back</Link>
     </AppContainer>

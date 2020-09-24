@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Fixing preloading bug with hover replacement on mobile scroll" />
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Updating README" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +225,7 @@
       <workItem from="1597783426586" duration="1815000" />
       <workItem from="1600366713045" duration="604000" />
       <workItem from="1600783011196" duration="19333000" />
-      <workItem from="1600805311454" duration="38864000" />
+      <workItem from="1600805311454" duration="39193000" />
     </task>
     <task id="LOCAL-00001" summary="Moving to angular">
       <created>1573945038460</created>
@@ -423,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600981533684</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Updating README">
+      <created>1600986929876</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1600986929876</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +449,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Bootstrap" />
     <MESSAGE value="Updated home page to use bootstrap grids, and added header" />
     <MESSAGE value="Updated footer and header, added contact icons and copyright" />
     <MESSAGE value="Added photo carousel" />
@@ -467,7 +473,8 @@
     <MESSAGE value="Updating header with current path" />
     <MESSAGE value="Making home more mobile friendly" />
     <MESSAGE value="Fixing preloading bug with hover replacement on mobile scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing preloading bug with hover replacement on mobile scroll" />
+    <MESSAGE value="Updating README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating README" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Plugins" timestamp="1600805292294">
@@ -486,10 +493,10 @@
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
     <state x="-1009" y="270" key="#xdebugger.evaluate/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600825636556" />
-    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1600981533201">
+    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1600986929444">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600981533201" />
+    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600986929444" />
     <state x="629" y="318" key="EditFileWatcherDialog" timestamp="1600789422363">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -554,10 +561,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600815386179" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600981535183">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600986931081">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600981535183" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600986931081" />
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600815880308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -41,7 +41,7 @@ p {
 }
 
 .socialBubbles a.icoEmail:hover {
-    background-color: #8d0257;
+    background-color: var(--purplePink);
 }
 
 .socialBubbles a.icoGithub:hover {

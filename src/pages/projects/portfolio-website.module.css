@@ -1,0 +1,11 @@
+.backButton {
+    align-self: flex-end;
+    text-decoration: none;
+    color: var(--light);
+    margin: 1rem;
+    font-size: 3em;
+}
+
+.backButton:hover {
+    color: var(--light);
+}

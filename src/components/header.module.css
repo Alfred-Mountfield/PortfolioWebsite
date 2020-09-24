@@ -1,13 +1,13 @@
 .fullName {
+    text-decoration: none;
     height: 8%;
-    padding-left: 1vw;
-    padding-top: 1vw;
+    padding: 1vw;
     background-color: #252526;
     vertical-align: middle;
 }
 
 .fullName span {
-    font-family: 'Poiret One', "Bookman Old Style", SansSerif;
+    font-family: 'Poiret One', "Bookman Old Style", SansSerif, serif;
     display: inline-block;
     font-size: 2em;
     color: #b6b1b1;
@@ -17,3 +17,13 @@
     font-weight: bold;
 }
 
+.homeButton {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.5rem;
+    color: var(--gray)
+}
+
+.homeButton:hover {
+    color: var(--light)
+}

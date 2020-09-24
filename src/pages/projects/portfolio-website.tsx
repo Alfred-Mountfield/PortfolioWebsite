@@ -1,15 +1,10 @@
 import React from 'react'
-// import Img from 'gatsby-image'
-// import Col from 'react-bootstrap/Col'
-// import Row from 'react-bootstrap/Row'
-// import Container from 'react-bootstrap/Container'
-// import useWindowWidthBreakpoints from 'use-window-width-breakpoints'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, Link, useStaticQuery } from 'gatsby'
 
-import styles from './portfolio-website.module.css'
-import classNames from 'classnames'
 import ProjectDisplay from '../../components/projectDisplay'
 import AppContainer from '../../components/appContainer'
+
+import styles from './portfolio-website.module.css'
 
 type PortfolioWebsiteProps = {
   location: Location
@@ -47,7 +42,10 @@ const PortfolioWebsite: React.FC<PortfolioWebsiteProps> = props => {
         title={'Portfolio Website'}
         description={description}
         techStack={['React', 'Gatsby']}
+        link={'/'}
+        codeLink={'https://github.com/Alfred-Mountfield/PersonalWebsite'}
       />
+      <Link className={styles.backButton} to={".."}>Back</Link>
     </AppContainer>
   )
 }

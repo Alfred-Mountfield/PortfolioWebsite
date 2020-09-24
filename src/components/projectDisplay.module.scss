@@ -11,6 +11,11 @@
     align-items: center;
 }
 
+.projectImageLink {
+    display: flex;
+    flex-grow: 1;
+}
+
 .projectTextContainer {
     display: flex;
     flex-direction: column;
@@ -28,8 +33,21 @@
 }
 
 .title {
+    display: flex;
     font-weight: bold;
     font-size: 1.5em;
+    flex: 1;
+}
+
+.codeLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--light)
+}
+
+.codeLink:hover {
+    color: var(--purplePink)
 }
 
 .description {

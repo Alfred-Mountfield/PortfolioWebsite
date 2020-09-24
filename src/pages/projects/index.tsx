@@ -44,16 +44,16 @@ const Index: React.FC<ProjectsProps> = props => {
       picture: 'portfolioWebsite.png',
       link: 'portfolio-website',
     },
-    {
-      title: 'Purpose',
-      picture: 'tempCoding.jpg',
-      link: '',
-    },
-    {
-      title: 'KachiMoro Cli',
-      picture: 'tempCoding.jpg',
-      link: '',
-    }
+    // {
+    //   title: 'Purpose',
+    //   picture: 'tempCoding.jpg',
+    //   link: '',
+    // },
+    // {
+    //   title: 'KachiMoro Cli',
+    //   picture: 'tempCoding.jpg',
+    //   link: '',
+    // }
   ]
 
   return (

@@ -2,9 +2,11 @@
     min-height: 12%;
     background-color: #252526;
     bottom: 0;
+    margin: 0;
+    width: 100%;
 }
 
-p {
+.footerContainer p {
     color: #8C8C8C;
 }
 

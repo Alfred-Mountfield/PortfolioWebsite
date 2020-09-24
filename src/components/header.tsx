@@ -13,7 +13,7 @@ type HeaderProps = {
 const Header: React.FC<HeaderProps> = props => {
   return (
     <Row className={styles.headerContainer}>
-      <Link className={styles.name} to={'/'}>
+      <Link to={'/'} className={styles.name}>
         <span className={styles.firstName}>Alfred</span>
         <span className={styles.lastName}>Mountfield</span>
       </Link>

@@ -1,5 +1,6 @@
 .appContainer {
     min-height: 100vh;
+    max-width: 100vw;
     flex-flow: column;
     display: flex;
     background-color: var(--darkGrey);

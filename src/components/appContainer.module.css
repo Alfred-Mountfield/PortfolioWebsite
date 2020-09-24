@@ -3,6 +3,7 @@
     flex-flow: column;
     display: flex;
     background-color: var(--darkGrey);
+    color: var(--light)
 }
 
 .contentsContainer {

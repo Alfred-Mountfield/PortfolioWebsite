@@ -1,0 +1,50 @@
+@import "~bootstrap/scss/bootstrap";
+
+.contentContainer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.projectImage {
+    display: flex;
+    align-items: center;
+}
+
+.projectTextContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectTextContainer > div {
+    margin: 1vh 0;
+}
+
+@include media-breakpoint-up(lg) {
+    .projectTextContainer {
+        max-height: 60vh;
+        overflow-y: scroll;
+    }
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.description {
+    flex: 1;
+    white-space: pre-wrap;
+}
+
+.techStack {
+
+}
+
+.sectionBreak {
+    border: 0;
+    height: 0;
+    margin: 0;
+    width: 100%;
+    border-bottom: 1px solid var(--gray);
+}

@@ -39,3 +39,11 @@ body {
     font-size: 1.0rem;
   }
 }
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}

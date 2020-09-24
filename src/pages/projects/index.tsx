@@ -4,24 +4,24 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Img from 'gatsby-image'
 
-import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 
-import AppContainer from '../components/appContainer'
+import AppContainer from '../../components/appContainer'
 
-import styles from './projects.module.css'
+import styles from './index.module.css'
 import { FluidObject } from 'gatsby-image/index'
 
 type ProjectsProps = {
   location: Location
 }
 
-const Projects: React.FC<ProjectsProps> = props => {
+const Index: React.FC<ProjectsProps> = props => {
   const bodyRef = React.useRef<HTMLInputElement>(null)
 
   // Get Project Thumbnails
   const projectThumbnailsData = useStaticQuery(graphql`
     query getProjectThumbnails {
-      allFile(filter: { extension: { regex: "/(jpg)|(png)/" }, relativeDirectory: { eq: "projectThumbnails" } }) {
+      allFile(filter: { extension: { regex: "/(jpg)|(png)/" }, relativeDirectory: { eq: "projects/thumbnails" } }) {
         edges {
           node {
             childImageSharp {
@@ -40,42 +40,41 @@ const Projects: React.FC<ProjectsProps> = props => {
 
   const projects = [
     {
-      title: 'This website',
-      picture: 'personalWebsite.png',
+      title: "This (Portfolio Website)",
+      picture: 'portfolioWebsite.png',
+      link: 'portfolio-website',
     },
     {
       title: 'Purpose',
       picture: 'tempCoding.jpg',
+      link: '',
     },
     {
       title: 'KachiMoro Cli',
       picture: 'tempCoding.jpg',
-    },
-    {
-      title: 'TODO',
-      picture: 'tempCoding.jpg',
-    },
-    {
-      title: 'Potato',
-      picture: 'tempCoding.jpg',
-    },
+      link: '',
+    }
   ]
 
   return (
     <AppContainer location={props.location}>
       <Container className={styles.mainContainer}>
         <Row className="m-1 justify-content-center">
-          {projects.map(({ title, picture }: { title: string; picture: string }) => {
+          {projects.map(({ title, picture, link }: { title: string; picture: string; link: string }) => {
             return (
               <Col md={4} lg={3} className="p-0 m-4">
-                <Img
-                  className={styles.projectThumbnail}
-                  fluid={projectThumbnailsData.allFile.edges.find(
-                    ({ node }: { node: { childImageSharp: { fluid: FluidObject & { originalName: string } } } }) =>
-                      node.childImageSharp.fluid.originalName === picture
-                  ).node.childImageSharp.fluid}
-                />
-                <div className={styles.projectTitle}>{title}</div>
+                <Link to={link}>
+                  <Img
+                    className={styles.projectThumbnail}
+                    fluid={
+                      projectThumbnailsData.allFile.edges.find(
+                        ({ node }: { node: { childImageSharp: { fluid: FluidObject & { originalName: string } } } }) =>
+                          node.childImageSharp.fluid.originalName === picture
+                      ).node.childImageSharp.fluid
+                    }
+                  />
+                  <div className={styles.projectTitle}>{title}</div>
+                </Link>
               </Col>
             )
           })}
@@ -85,4 +84,4 @@ const Projects: React.FC<ProjectsProps> = props => {
   )
 }
 
-export default Projects
+export default Index

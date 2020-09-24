@@ -69,7 +69,7 @@ const HomePageLinks = React.forwardRef<HTMLDivElement, PropsWithChildren<HomePag
       }
     }
     const observer =
-      'ontouchstart' in window
+      typeof window !== `undefined` && 'ontouchstart' in window
         ? new IntersectionObserver(callback, {
             root: null,
             threshold: [1],

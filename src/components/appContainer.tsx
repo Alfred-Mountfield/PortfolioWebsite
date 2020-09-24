@@ -14,7 +14,7 @@ export const AppContainer: React.FC<AppContainerProps> = props => {
   const rootPath = `${__PATH_PREFIX__}/`
   return (
     <div className={styles.appContainer}>
-      {props.location.pathname !== rootPath ? <Header /> : null}
+      {props.location.pathname !== rootPath ? <Header location={props.location} /> : null}
       <div className={styles.contentsContainer}>{props.children}</div>
       <Footer />
     </div>

@@ -1,23 +1,41 @@
-.fullName {
-    text-decoration: none;
+.headerContainer {
+    display: flex;
+    width: 100vw;
     height: 8%;
     padding: 1vw;
     background-color: #252526;
     vertical-align: middle;
+    margin: 0;
 }
 
-.fullName span {
+.headerContainer a:hover {
+    text-decoration: none;
+}
+
+.headerContainer span {
     font-family: 'Poiret One', "Bookman Old Style", SansSerif, serif;
-    display: inline-block;
     font-size: 2em;
     color: #b6b1b1;
+}
+.name, .location, .homeButton {
+    display: flex;
+    flex: 1;
+}
+
+.name {
+    display: inline-flex;
 }
 
 .lastName {
     font-weight: bold;
 }
 
+.location {
+    justify-content: center;
+}
+
 .homeButton {
+    justify-content: flex-end;
     margin-top: auto;
     margin-bottom: auto;
     font-size: 1.5rem;

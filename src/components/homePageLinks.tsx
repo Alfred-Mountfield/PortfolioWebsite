@@ -19,10 +19,10 @@ const HomePageLinks = React.forwardRef<HTMLDivElement, PropsWithChildren<HomePag
 
   const imageData = useStaticQuery(graphql`
     query GetPageLinkPictures {
-      about: file(relativePath: { eq: "tempCoding.jpg" }) {
+      about: file(relativePath: { eq: "tempAbout.jpg" }) {
         id
         childImageSharp {
-          fluid(maxWidth: 700, quality: 90) {
+          fluid(maxWidth: 1100, quality: 90) {
             ...GatsbyImageSharpFluid_withWebp
             ...GatsbyImageSharpFluidLimitPresentationSize
           }
@@ -31,16 +31,16 @@ const HomePageLinks = React.forwardRef<HTMLDivElement, PropsWithChildren<HomePag
       coding: file(relativePath: { eq: "tempCoding.jpg" }) {
         id
         childImageSharp {
-          fluid(maxWidth: 700, quality: 90) {
+          fluid(maxWidth: 1100, quality: 90) {
             ...GatsbyImageSharpFluid_withWebp
             ...GatsbyImageSharpFluidLimitPresentationSize
           }
         }
       }
-      gallery: file(relativePath: { eq: "gallery/carousel/Lying Rabbit.jpg" }) {
+      gallery: file(relativePath: { eq: "gallery/carousel/Steel Wool Spinning on Bridge.jpg" }) {
         id
         childImageSharp {
-          fluid(maxWidth: 700, quality: 90) {
+          fluid(maxWidth: 1100, quality: 90) {
             ...GatsbyImageSharpFluid_withWebp
             ...GatsbyImageSharpFluidLimitPresentationSize
           }

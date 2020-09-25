@@ -28,6 +28,32 @@
     }
 }
 
+.modal {
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal img {
+    object-fit: contain !important;
+}
+
+.modal > div {
+    display: flex;
+    margin: 1.75rem;
+    max-width: calc(100% - 56px);
+    max-height: calc(100vh - 56px);
+    flex: 0 1 auto;
+}
+
+.modal div {
+    border: none;
+    background-color: transparent;
+}
+
+:global(.modal-body) > div {
+    max-width: calc(100vw - 56px) !important;
+    max-height: calc(100vh - 56px) !important;
+}
 
 .downArrow {
     max-width: 100% !important;

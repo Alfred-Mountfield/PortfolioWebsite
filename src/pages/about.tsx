@@ -17,7 +17,7 @@ export const About: React.FC<AboutProps> = props => {
       <Container>
         <Row className="mt-5">
           <Col xs={10} lg={6} className="m-0 mb-4 ml-lg-5 ml-2">
-            <h1 className={styles.paraHeader}>What I love</h1>
+            <h1 className={styles.paraHeader}>I enjoy</h1>
             <p className={styles.paraContent}>
               <ul>
                 <li>Encountering, understanding, and solving, problems</li>
@@ -28,9 +28,9 @@ export const About: React.FC<AboutProps> = props => {
             </p>
           </Col>
         </Row>
-        <Row className="row m-0 justify-content-end">
-          <Col className="col-10 col-lg-6 mb-4 mr-lg-5 mr-2">
-            <h1 className={styles.paraHeader}>How I like to spend my time</h1>
+        <Row className="m-0 justify-content-end">
+          <Col xs={10} lg={6} className="mb-4 mr-lg-5 mr-2">
+            <h1 className={styles.paraHeader}>I like to spend my time</h1>
             <p className={styles.paraContent}>
               <ul>
                 <li>Learning new (and often useless) skills</li>
@@ -43,7 +43,7 @@ export const About: React.FC<AboutProps> = props => {
           </Col>
         </Row>
         <Row className="m-0">
-          <Col className="m-0 col-10 col-lg-6 mb-4 ml-lg-5 ml-2">
+          <Col xs={10} lg={6}  className="m-0 mb-4 ml-lg-5 ml-2">
             <h1 className={styles.paraHeader}>I work best when</h1>
             <p className={styles.paraContent}>
               <ul>
@@ -65,7 +65,7 @@ export const About: React.FC<AboutProps> = props => {
             <span className={styles.dates}>June 2020 - September 2020</span>
           </Col>
           <Col lg={4} md={6} className={styles.explanation}>
-            Worked in a team focusing on complex orchestration of game servers for multiplayer games
+            Worked in a team focusing on complex orchestration of game servers across cloud providers for multiplayer games
           </Col>
           <Col lg={4} md={6} className={styles.explanation}>Golang, React (Typescript, JSX), Kubernetes, Docker</Col>
         </Row>

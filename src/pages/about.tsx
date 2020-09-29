@@ -15,6 +15,44 @@ export const About: React.FC<AboutProps> = props => {
   return (
     <AppContainer location={props.location}>
       <Container>
+        <h1 className={classNames(styles.sectionHeader, 'mt-5 mb-5')}>——— Experience ———</h1>
+        <Row className={classNames(styles.locationExplanationRow, 'justify-content-center')}>
+          <Col md={2} className={styles.location}>
+            Improbable Worlds Limited
+            <br />
+            <span className={styles.dates}>June 2020 - September 2020</span>
+          </Col>
+          <Col lg={4} md={6} className={styles.explanation}>
+            Worked in a team focusing on complex orchestration of game servers across cloud providers for multiplayer games
+          </Col>
+          <Col lg={4} md={6} className={styles.explanation}>Golang, React (Typescript, JSX), Kubernetes, Docker</Col>
+        </Row>
+        <Row className={classNames(styles.locationExplanationRow, 'justify-content-center')}>
+          <Col md={2} className={styles.location}>
+            Morgan Stanley
+            <br />
+            <span className={styles.dates}>June 2019 - June 2020</span>
+          </Col>
+          <Col lg={4} md={6}  className={styles.explanation}>
+            Worked in a Kanban team in Prime Brokerage Technology focusing on API solutions to pave the way to cloud within the division and
+            firm.
+          </Col>
+          <Col lg={4} md={6}  className={styles.explanation}>
+            Java (Boot, Cloud, Reactive), Python, Network Security (OAuth, HTTPS, Kerberos)
+          </Col>
+        </Row>
+        <Row className={classNames(styles.locationExplanationRow, 'justify-content-center')}>
+          <Col md={2} className={styles.location} />
+          <Col lg={4} md={6}  className={styles.explanation}>
+            Worked in a Scrum Team focusing on a regulatory process in Corporate Finance Technology
+          </Col>
+          <Col lg={4} md={6} className={styles.explanation}>
+            Java (Spring, JAXB), Python (Pandas, Flask, SQLAlchemy), AppDynamics, Splunk
+          </Col>
+        </Row>
+      </Container>
+
+      <Container>
         <Row className="mt-5">
           <Col xs={10} lg={6} className="m-0 mb-4 ml-lg-5 ml-2">
             <h1 className={styles.paraHeader}>I enjoy</h1>
@@ -52,44 +90,6 @@ export const About: React.FC<AboutProps> = props => {
                 <li>When the work is challenging</li>
               </ul>
             </p>
-          </Col>
-        </Row>
-      </Container>
-
-      <Container>
-        <h1 className={classNames(styles.sectionHeader, 'mt-5 mb-5')}>——— Experience ———</h1>
-        <Row className={classNames(styles.locationExplanationRow, 'justify-content-center')}>
-          <Col md={2} className={styles.location}>
-            Improbable Worlds Limited
-            <br />
-            <span className={styles.dates}>June 2020 - September 2020</span>
-          </Col>
-          <Col lg={4} md={6} className={styles.explanation}>
-            Worked in a team focusing on complex orchestration of game servers across cloud providers for multiplayer games
-          </Col>
-          <Col lg={4} md={6} className={styles.explanation}>Golang, React (Typescript, JSX), Kubernetes, Docker</Col>
-        </Row>
-        <Row className={classNames(styles.locationExplanationRow, 'justify-content-center')}>
-          <Col md={2} className={styles.location}>
-            Morgan Stanley
-            <br />
-            <span className={styles.dates}>June 2019 - June 2020</span>
-          </Col>
-          <Col lg={4} md={6}  className={styles.explanation}>
-            Worked in a Kanban team in Prime Brokerage Technology focusing on API solutions to pave the way to cloud within the division and
-            firm.
-          </Col>
-          <Col lg={4} md={6}  className={styles.explanation}>
-            Java (Boot, Cloud, Reactive), Python, Network Security (OAuth, HTTPS, Kerberos)
-          </Col>
-        </Row>
-        <Row className={classNames(styles.locationExplanationRow, 'justify-content-center')}>
-          <Col md={2} className={styles.location} />
-          <Col lg={4} md={6}  className={styles.explanation}>
-            Worked in a Scrum Team focusing on a regulatory process in Corporate Finance Technology
-          </Col>
-          <Col lg={4} md={6} className={styles.explanation}>
-            Java (Spring, JAXB), Python (Pandas, Flask, SQLAlchemy), AppDynamics, Splunk
           </Col>
         </Row>
       </Container>

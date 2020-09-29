@@ -40,6 +40,7 @@ const P5Graph: React.FC<PortfolioWebsiteProps> = props => {
         title={'P5 Graphing Utility'}
         description={description}
         techStack={['Javascript', 'p5.js']}
+        codeLink={"https://github.com/Alfred-Mountfield/p5-graph"}
       />
     </AppContainer>
   )

@@ -8,7 +8,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby'
 
 import AppContainer from '../../components/appContainer'
 
-import styles from './index.module.css'
+import styles from './index.module.scss'
 import { FluidObject } from 'gatsby-image/index'
 
 type ProjectsProps = {
@@ -44,6 +44,16 @@ const Index: React.FC<ProjectsProps> = props => {
       picture: 'portfolioWebsite.png',
       link: 'portfolio-website',
     },
+    {
+      title: 'To-Scale Solar System Space Game',
+      picture: 'studentHack.jpg',
+      link: 'studenthack-flipping-flying-triangle',
+    },
+    {
+      title: 'Rindr For Teddit',
+      picture: 'rinderForTeddit.jpg',
+      link: 'oxfordhack-rinder-for-teddit',
+    },
     // {
     //   title: 'Purpose',
     //   picture: 'tempCoding.jpg',
@@ -55,30 +65,21 @@ const Index: React.FC<ProjectsProps> = props => {
       link: 'hackmanchester-bio-app',
     },
     {
-      title: 'Rindr For Teddit',
-      picture: 'rinderForTeddit.jpg',
-      link: 'oxfordhack-rinder-for-teddit',
+      title: 'Puzzle Game',
+      picture: 'leedsHack.jpg',
+      link: 'leedshack-puzzle-game',
     },
     {
-      title: 'P5 Graph experiment',
+      title: 'p5 Graph experiment',
       picture: 'graph.jpg',
       link: 'p5-graph',
     },
     {
-      title: 'P5 Snake experiment',
+      title: 'p5 Snake experiment',
       picture: 'snake.jpg',
       link: 'p5-snake',
     },
-    {
-      title: 'To-Scale Solar System Space Game',
-      picture: 'studentHack.jpg',
-      link: 'studenthack-flipping-flying-triangle',
-    },
-    {
-      title: 'Puzzle Game',
-      picture: 'leedsHack.jpg',
-      link: 'leedshack-puzzle-game',
-    }
+
   ]
 
   return (
@@ -87,19 +88,21 @@ const Index: React.FC<ProjectsProps> = props => {
         <Row className="m-1 justify-content-center">
           {projects.map(({ title, picture, link }: { title: string; picture: string; link: string }) => {
             return (
-              <Col md={4} lg={3} className="p-0 m-4">
-                <Link to={link}>
-                  <Img
-                    className={styles.projectThumbnail}
-                    fluid={
-                      projectThumbnailsData.allFile.edges.find(
-                        ({ node }: { node: { childImageSharp: { fluid: FluidObject & { originalName: string } } } }) =>
-                          node.childImageSharp.fluid.originalName === picture
-                      ).node.childImageSharp.fluid
-                    }
-                  />
-                  <div className={styles.projectTitle}>{title}</div>
-                </Link>
+              <Col md={4} lg={3} className={"p-0 m-4"}>
+                <div className={styles.projectContainer}>
+                  <Link to={link}>
+                    <Img
+                      className={styles.projectThumbnail}
+                      fluid={
+                        projectThumbnailsData.allFile.edges.find(
+                          ({ node }: { node: { childImageSharp: { fluid: FluidObject & { originalName: string } } } }) =>
+                            node.childImageSharp.fluid.originalName === picture
+                        ).node.childImageSharp.fluid
+                      }
+                    />
+                    <div className={styles.projectTitle}>{title}</div>
+                  </Link>
+                </div>
               </Col>
             )
           })}

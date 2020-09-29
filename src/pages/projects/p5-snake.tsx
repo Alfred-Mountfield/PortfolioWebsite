@@ -43,7 +43,8 @@ const P5Graph: React.FC<PortfolioWebsiteProps> = props => {
         projectImage={imageData.allFile.edges[0].node.childImageSharp.fluid}
         title={'Snake Experiment'}
         description={description}
-        techStack={['Javascript', 'p5.js']}
+        techStack={['JavaScript', 'p5.js']}
+        codeLink={"https://github.com/Alfred-Mountfield/p5-Snake"}
       />
     </AppContainer>
   )

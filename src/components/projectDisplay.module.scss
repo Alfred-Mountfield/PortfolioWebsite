@@ -9,6 +9,10 @@
 .projectImage {
     display: flex;
     align-items: center;
+    img {
+        padding: 1%;
+        border: 0.3em var(--grey) solid;
+    }
 }
 
 .projectImageLink {

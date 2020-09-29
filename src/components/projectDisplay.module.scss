@@ -25,6 +25,18 @@
     margin: 1vh 0;
 }
 
+@include media-breakpoint-down(md) {
+    .projectTextContainer {
+        font-size: 1.5em;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .projectTextContainer {
+        font-size: 1.1em;
+    }
+}
+
 @include media-breakpoint-up(lg) {
     .projectTextContainer {
         max-height: 60vh;
@@ -65,4 +77,16 @@
     margin: 0;
     width: 100%;
     border-bottom: 1px solid var(--gray);
+}
+
+.backButton {
+    align-self: flex-end;
+    text-decoration: none;
+    color: var(--light);
+    margin: 1rem;
+    font-size: 3em;
+}
+
+.backButton:hover {
+    color: var(--light);
 }

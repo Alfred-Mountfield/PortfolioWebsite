@@ -19,8 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Re-ordering about page">
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Changing favicon.ico">
+      <change afterPath="$PROJECT_DIR$/src/pages/projects/hackmanchester-bio-app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/projects/leedshack-puzzle-game.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/projects/oxfordhack-rinder-for-teddit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/projects/p5-graph.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/projects/p5-snake.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/projects/studenthack-flipping-flying-triangle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.graphqlconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/projects/portfolioWebsite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/projects/thumbnails/tempCoding.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/projects/thumbnails/tempCoding.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projectDisplay.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projectDisplay.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projectDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projectDisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/portfolio-website.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/common.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/portfolio-website.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/portfolio-website.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,16 +94,17 @@
     <property name="ts.external.directory.path" value="C:\Users\Alfred\WebstormProjects\PortfolioWebsite\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alfred\WebstormProjects\PortfolioWebsite\src\pages\projects" />
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\pages\projects" />
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\projectThumbnails" />
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\projects" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\pages\projects" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\gallery" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\gallery\carousel" />
-      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\pages\projects" />
-      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\projectThumbnails" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
     </key>
   </component>
@@ -259,7 +279,7 @@
       <workItem from="1600783011196" duration="19333000" />
       <workItem from="1600805311454" duration="43217000" />
       <workItem from="1601152435166" duration="5248000" />
-      <workItem from="1601383596689" duration="1121000" />
+      <workItem from="1601383596689" duration="11189000" />
     </task>
     <task id="LOCAL-00001" summary="Moving to angular">
       <created>1573945038460</created>
@@ -492,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601383885630</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Changing favicon.ico">
+      <created>1601385093526</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1601385093526</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated photo carousel to use pictures in the asset folder, and to resize pictures appropriately" />
     <MESSAGE value="Added photo-gallery with 3 columns" />
     <MESSAGE value="Updated carousel to not overflow height" />
     <MESSAGE value="Added resize service to dynamically check the bootstrap breakpoint, and pick the right amount of columns for the photo gallery" />
@@ -536,7 +562,8 @@
     <MESSAGE value="Setting up github pages" />
     <MESSAGE value="Small updates" />
     <MESSAGE value="Re-ordering about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Re-ordering about page" />
+    <MESSAGE value="Changing favicon.ico" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing favicon.ico" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Plugins" timestamp="1600805292294">
@@ -547,10 +574,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="195" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601152499199" />
-    <state x="810" y="484" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1600805801862">
+    <state x="810" y="484" key="#com.intellij.ide.util.TreeDirectoryChooserDialog" timestamp="1601399142361">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="810" y="484" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805801862" />
+    <state x="810" y="484" key="#com.intellij.ide.util.TreeDirectoryChooserDialog/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601399142361" />
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601046953388">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -559,10 +586,10 @@
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
     <state x="-1009" y="270" key="#xdebugger.evaluate/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600825636556" />
-    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601383884620">
+    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601385093039">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601383884620" />
+    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601385093039" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1600995265208">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -579,22 +606,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="287" key="FileDocumentManager.FileCacheConflict/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962087845" />
-    <state width="1899" height="174" key="GridCell.Tab.0.bottom" timestamp="1601326641884">
+    <state width="1899" height="179" key="GridCell.Tab.0.bottom" timestamp="1601401709077">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601326641884" />
-    <state width="1899" height="174" key="GridCell.Tab.0.center" timestamp="1601326641884">
+    <state width="1899" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601401709077" />
+    <state width="1899" height="179" key="GridCell.Tab.0.center" timestamp="1601401709077">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601326641884" />
-    <state width="1899" height="174" key="GridCell.Tab.0.left" timestamp="1601326641884">
+    <state width="1899" height="179" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601401709077" />
+    <state width="1899" height="179" key="GridCell.Tab.0.left" timestamp="1601401709077">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601326641884" />
-    <state width="1899" height="174" key="GridCell.Tab.0.right" timestamp="1601326641884">
+    <state width="1899" height="179" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601401709077" />
+    <state width="1899" height="179" key="GridCell.Tab.0.right" timestamp="1601401709077">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="174" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601326641884" />
+    <state width="1899" height="179" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601401709077" />
     <state width="1899" height="123" key="GridCell.Tab.1.bottom" timestamp="1600962047215">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -635,10 +662,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601304487873" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601383887373">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601385094803">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601383887373" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601385094803" />
+    <state x="92" y="92" width="1736" height="896" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601399142432">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601399142432" />
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601304490735">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -647,10 +678,10 @@
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
     <state x="-814" y="77" width="808" height="836" maximized="true" key="dock-window-1/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805689023" />
-    <state x="667" y="273" width="585" height="592" key="find.popup" timestamp="1601152813271">
+    <state x="667" y="273" width="585" height="592" key="find.popup" timestamp="1601399071038">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="667" y="273" width="585" height="592" key="find.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601152813271" />
+    <state x="667" y="273" width="585" height="592" key="find.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601399071038" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1601047146919">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

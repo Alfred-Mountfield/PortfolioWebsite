@@ -49,11 +49,36 @@ const Index: React.FC<ProjectsProps> = props => {
     //   picture: 'tempCoding.jpg',
     //   link: '',
     // },
-    // {
-    //   title: 'KachiMoro Cli',
-    //   picture: 'tempCoding.jpg',
-    //   link: '',
-    // }
+    {
+      title: 'Centre for Biological Timing App',
+      picture: 'hackManchester.jpg',
+      link: 'hackmanchester-bio-app',
+    },
+    {
+      title: 'Rindr For Teddit',
+      picture: 'rinderForTeddit.jpg',
+      link: 'oxfordhack-rinder-for-teddit',
+    },
+    {
+      title: 'P5 Graph experiment',
+      picture: 'graph.jpg',
+      link: 'p5-graph',
+    },
+    {
+      title: 'P5 Snake experiment',
+      picture: 'snake.jpg',
+      link: 'p5-snake',
+    },
+    {
+      title: 'To-Scale Solar System Space Game',
+      picture: 'studentHack.jpg',
+      link: 'studenthack-flipping-flying-triangle',
+    },
+    {
+      title: 'Puzzle Game',
+      picture: 'leedsHack.jpg',
+      link: 'leedshack-puzzle-game',
+    }
   ]
 
   return (

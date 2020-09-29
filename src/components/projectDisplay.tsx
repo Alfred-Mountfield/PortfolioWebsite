@@ -14,7 +14,7 @@ import styles from './projectDisplay.module.scss'
 type ProjectDisplayProps = {
   projectImage: FluidObject
   title: string
-  description: string
+  description: string | JSX.Element
   techStack: string[]
   link?: string
   codeLink?: string
@@ -52,6 +52,7 @@ const ProjectDisplay: React.FC<ProjectDisplayProps> = props => {
           </Col>
         </Row>
       </Container>
+      <Link className={styles.backButton} to={".."}>Back</Link>
     </div>
   )
 }

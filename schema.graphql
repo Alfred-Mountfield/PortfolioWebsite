@@ -458,7 +458,7 @@ type Query {
     site(buildTime: DateQueryOperatorInput, children: NodeFilterListInput, host: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, parent: NodeFilterInput, pathPrefix: StringQueryOperatorInput, polyfill: BooleanQueryOperatorInput, port: IntQueryOperatorInput, siteMetadata: SiteSiteMetadataFilterInput): Site
     siteBuildMetadata(buildTime: DateQueryOperatorInput, children: NodeFilterListInput, id: StringQueryOperatorInput, internal: InternalFilterInput, parent: NodeFilterInput): SiteBuildMetadata
     sitePage(children: NodeFilterListInput, component: StringQueryOperatorInput, componentChunkName: StringQueryOperatorInput, componentPath: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, internalComponentName: StringQueryOperatorInput, isCreatedByStatefulCreatePages: BooleanQueryOperatorInput, matchPath: StringQueryOperatorInput, parent: NodeFilterInput, path: StringQueryOperatorInput, pluginCreator: SitePluginFilterInput, pluginCreatorId: StringQueryOperatorInput): SitePage
-    sitePlugin(children: NodeFilterListInput, id: StringQueryOperatorInput, internal: InternalFilterInput, name: StringQueryOperatorInput, nodeAPIs: StringQueryOperatorInput, packageJson: SitePluginPackageJsonFilterInput, parent: NodeFilterInput, pluginFilepath: StringQueryOperatorInput, pluginOptions: SitePluginPluginOptionsFilterInput, resolve: StringQueryOperatorInput, ssrAPIs: StringQueryOperatorInput, version: StringQueryOperatorInput): SitePlugin
+    sitePlugin(browserAPIs: StringQueryOperatorInput, children: NodeFilterListInput, id: StringQueryOperatorInput, internal: InternalFilterInput, name: StringQueryOperatorInput, nodeAPIs: StringQueryOperatorInput, packageJson: SitePluginPackageJsonFilterInput, parent: NodeFilterInput, pluginFilepath: StringQueryOperatorInput, pluginOptions: SitePluginPluginOptionsFilterInput, resolve: StringQueryOperatorInput, ssrAPIs: StringQueryOperatorInput, version: StringQueryOperatorInput): SitePlugin
 }
 
 type Site implements Node {
@@ -589,6 +589,7 @@ type SitePageGroupConnection {
 }
 
 type SitePlugin implements Node {
+    browserAPIs: [String]
     children: [Node!]!
     id: ID!
     internal: Internal!
@@ -1463,6 +1464,7 @@ enum SitePageFieldsEnum {
     parent___parent___parent___id
     path
     pluginCreatorId
+    pluginCreator___browserAPIs
     pluginCreator___children
     pluginCreator___children___children
     pluginCreator___children___children___children
@@ -1529,6 +1531,7 @@ enum SitePageFieldsEnum {
 }
 
 enum SitePluginFieldsEnum {
+    browserAPIs
     children
     children___children
     children___children___children
@@ -1956,6 +1959,7 @@ input SitePageSortInput {
 }
 
 input SitePluginFilterInput {
+    browserAPIs: StringQueryOperatorInput
     children: NodeFilterListInput
     id: StringQueryOperatorInput
     internal: InternalFilterInput

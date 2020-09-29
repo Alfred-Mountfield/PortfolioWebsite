@@ -4,7 +4,7 @@ import { graphql, Link, useStaticQuery } from 'gatsby'
 import ProjectDisplay from '../../components/projectDisplay'
 import AppContainer from '../../components/appContainer'
 
-import styles from './portfolio-website.module.css'
+import styles from './common.module.css'
 
 type PortfolioWebsiteProps = {
   location: Location
@@ -38,7 +38,7 @@ const PortfolioWebsite: React.FC<PortfolioWebsiteProps> = props => {
   return (
     <AppContainer location={props.location}>
       <ProjectDisplay
-        projectImage={imageData.picture.childImageSharp.fluid}
+        projectImage={imageData.allFile.edges[0].node.childImageSharp.fluid}
         title={'Portfolio Website'}
         description={description}
         techStack={['React', 'Gatsby']}

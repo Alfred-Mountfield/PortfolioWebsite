@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Small updates">
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Re-ordering about page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +259,7 @@
       <workItem from="1600783011196" duration="19333000" />
       <workItem from="1600805311454" duration="43217000" />
       <workItem from="1601152435166" duration="5248000" />
-      <workItem from="1601383596689" duration="37000" />
+      <workItem from="1601383596689" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="Moving to angular">
       <created>1573945038460</created>
@@ -486,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601303849029</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Re-ordering about page">
+      <created>1601383885630</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601383885630</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +511,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added photo carousel and header" />
     <MESSAGE value="Updated photo carousel to use pictures in the asset folder, and to resize pictures appropriately" />
     <MESSAGE value="Added photo-gallery with 3 columns" />
     <MESSAGE value="Updated carousel to not overflow height" />
@@ -530,7 +535,8 @@
     <MESSAGE value="Updating Github link" />
     <MESSAGE value="Setting up github pages" />
     <MESSAGE value="Small updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small updates" />
+    <MESSAGE value="Re-ordering about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-ordering about page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Plugins" timestamp="1600805292294">
@@ -553,10 +559,10 @@
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
     <state x="-1009" y="270" key="#xdebugger.evaluate/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600825636556" />
-    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601303847936">
+    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601383884620">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601303847936" />
+    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601383884620" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1600995265208">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -629,10 +635,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601304487873" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601303851491">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601383887373">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601303851491" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601383887373" />
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601304490735">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

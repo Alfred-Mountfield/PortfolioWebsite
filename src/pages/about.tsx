@@ -25,7 +25,7 @@ export const About: React.FC<AboutProps> = props => {
           <Col lg={4} md={6} className={styles.explanation}>
             Worked in a team focusing on complex orchestration of game servers across cloud providers for multiplayer games
           </Col>
-          <Col lg={4} md={6} className={styles.explanation}>Golang, React (Typescript, JSX), Kubernetes, Docker</Col>
+          <Col lg={4} md={6} className={styles.explanation}>Golang, React (Typescript, JSX), Kubernetes, Helm, Agones, Docker</Col>
         </Row>
         <Row className={classNames(styles.locationExplanationRow, 'justify-content-center')}>
           <Col md={2} className={styles.location}>

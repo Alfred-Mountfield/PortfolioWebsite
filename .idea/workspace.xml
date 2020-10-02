@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Small update on experience">
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Updating experience layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projectDisplay.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projectDisplay.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projectDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projectDisplay.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +264,7 @@
       <workItem from="1601152435166" duration="5248000" />
       <workItem from="1601383596689" duration="15333000" />
       <workItem from="1601566245886" duration="809000" />
-      <workItem from="1601651587912" duration="1850000" />
+      <workItem from="1601651587912" duration="2409000" />
     </task>
     <task id="LOCAL-00001" summary="Moving to angular">
       <created>1573945038460</created>
@@ -525,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601566453358</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Updating experience layout">
+      <created>1601653678472</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1601653678472</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +551,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixing bug on footer, adding justified paragraphs on about" />
     <MESSAGE value="Fixed bug on main-body height, adding experience boilerplate" />
     <MESSAGE value="Undid min-height for body due to webkit bug" />
     <MESSAGE value="Fixing scaling for smaller resolutions" />
@@ -569,7 +575,8 @@
     <MESSAGE value="Adding more projects to the project pages" />
     <MESSAGE value="Updating styles and links on projects" />
     <MESSAGE value="Small update on experience" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small update on experience" />
+    <MESSAGE value="Updating experience layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating experience layout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Plugins" timestamp="1600805292294">
@@ -592,10 +599,10 @@
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
     <state x="-1009" y="270" key="#xdebugger.evaluate/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600825636556" />
-    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601566452527">
+    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601653677534">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601566452527" />
+    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601653677534" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1600995265208">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -672,10 +679,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601304487873" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601566454708">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601653679957">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601566454708" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601653679957" />
     <state x="92" y="92" width="1736" height="896" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601399142432">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -36,9 +36,7 @@ const ProjectDisplay: React.FC<ProjectDisplayProps> = props => {
           </Col>
           <Col className={styles.projectTextContainer}>
             <Row className={styles.titleContainer}>
-              <span className={styles.title}>
-                {props.title}
-              </span>
+              <span className={styles.title}>{props.title}</span>
               {props.codeLink ? (
                 <a className={styles.codeLink} href={props.codeLink}>
                   <FontAwesomeIcon icon={faCode} size={'lg'} />
@@ -51,8 +49,15 @@ const ProjectDisplay: React.FC<ProjectDisplayProps> = props => {
             <Row className={styles.description}>{props.description}</Row>
           </Col>
         </Row>
+        <Row>
+          <Col />
+          <Col className={styles.backButtonColumn}>
+            <Link className={styles.backButton} to={'..'}>
+              Back
+            </Link>
+          </Col>
+        </Row>
       </Container>
-      <Link className={styles.backButton} to={".."}>Back</Link>
     </div>
   )
 }

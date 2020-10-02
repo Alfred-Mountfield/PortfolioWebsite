@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Updating styles and links on projects">
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Small update on experience">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -262,7 +263,8 @@
       <workItem from="1600805311454" duration="43217000" />
       <workItem from="1601152435166" duration="5248000" />
       <workItem from="1601383596689" duration="15333000" />
-      <workItem from="1601566245886" duration="48000" />
+      <workItem from="1601566245886" duration="809000" />
+      <workItem from="1601651587912" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="Moving to angular">
       <created>1573945038460</created>
@@ -516,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601409751827</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Small update on experience">
+      <created>1601566453358</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1601566453358</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added resize service to dynamically check the bootstrap breakpoint, and pick the right amount of columns for the photo gallery" />
     <MESSAGE value="Fixing bug on footer, adding justified paragraphs on about" />
     <MESSAGE value="Fixed bug on main-body height, adding experience boilerplate" />
     <MESSAGE value="Undid min-height for body due to webkit bug" />
@@ -560,7 +568,8 @@
     <MESSAGE value="Changing favicon.ico" />
     <MESSAGE value="Adding more projects to the project pages" />
     <MESSAGE value="Updating styles and links on projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating styles and links on projects" />
+    <MESSAGE value="Small update on experience" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small update on experience" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Plugins" timestamp="1600805292294">
@@ -583,10 +592,10 @@
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
     <state x="-1009" y="270" key="#xdebugger.evaluate/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600825636556" />
-    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601409751225">
+    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601566452527">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601409751225" />
+    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601566452527" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1600995265208">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -663,14 +672,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601304487873" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601409753781">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601566454708">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601409753781" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601566454708" />
     <state x="92" y="92" width="1736" height="896" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601399142432">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601399142432" />
+    <state x="564" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601653233764">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="564" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601653233764" />
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601304490735">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 
+import { ProjectDisplayPageProps } from "../../components/projectPagesCommon";
 import ProjectDisplay from '../../components/projectDisplay'
 import AppContainer from '../../components/appContainer'
 

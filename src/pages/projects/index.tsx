@@ -45,6 +45,11 @@ const Index: React.FC<ProjectsProps> = props => {
       link: 'portfolio-website',
     },
     {
+      title: 'WebGL Particle System',
+      picture: 'particles.jpg',
+      link: 'web-gl-particles',
+    },
+    {
       title: 'To-Scale Solar System Space Game',
       picture: 'studentHack.jpg',
       link: 'studenthack-flipping-flying-triangle',
@@ -79,7 +84,6 @@ const Index: React.FC<ProjectsProps> = props => {
       picture: 'snake.jpg',
       link: 'p5-snake',
     },
-
   ]
 
   return (

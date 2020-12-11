@@ -1,16 +1,12 @@
 import React from 'react'
-import { graphql, Link, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 
 import ProjectDisplay from '../../components/projectDisplay'
 import AppContainer from '../../components/appContainer'
 
 import styles from './common.module.css'
 
-type PortfolioWebsiteProps = {
-  location: Location
-}
-
-const PortfolioWebsite: React.FC<PortfolioWebsiteProps> = props => {
+const PortfolioWebsite: React.FC<ProjectDisplayPageProps> = props => {
   // Get All Images
   const imageData = useStaticQuery(graphql`
     query GetPersonalWebsitePhoto {

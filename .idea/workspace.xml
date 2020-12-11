@@ -19,10 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Updating experience layout">
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Moving back button on project displays">
+      <change afterPath="$PROJECT_DIR$/src/pages/projects/common.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/projects/web-gl-particles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projectDisplay.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projectDisplay.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projectDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projectDisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/hackmanchester-bio-app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/hackmanchester-bio-app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/leedshack-puzzle-game.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/leedshack-puzzle-game.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/oxfordhack-rinder-for-teddit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/oxfordhack-rinder-for-teddit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/p5-graph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/p5-graph.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/p5-snake.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/p5-snake.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/portfolio-website.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/portfolio-website.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/studenthack-flipping-flying-triangle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/studenthack-flipping-flying-triangle.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +41,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -77,12 +85,6 @@
     <property name="ts.external.directory.path" value="C:\Users\Alfred\WebstormProjects\PortfolioWebsite\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alfred\WebstormProjects\PortfolioWebsite\src\pages\projects" />
-      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\pages\projects" />
-      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\projectThumbnails" />
-      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\projects" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\pages\projects" />
@@ -90,8 +92,14 @@
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\gallery\carousel" />
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alfred\WebstormProjects\PortfolioWebsite\src\pages\projects" />
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\pages\projects" />
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images\projectThumbnails" />
+      <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.develop">
+  <component name="RunManager" selected="npm.Run App">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -264,7 +272,17 @@
       <workItem from="1601152435166" duration="5248000" />
       <workItem from="1601383596689" duration="15333000" />
       <workItem from="1601566245886" duration="809000" />
-      <workItem from="1601651587912" duration="2409000" />
+      <workItem from="1601651587912" duration="3327000" />
+      <workItem from="1601990482790" duration="1914000" />
+      <workItem from="1602167798191" duration="1408000" />
+      <workItem from="1602534936650" duration="620000" />
+      <workItem from="1602587019821" duration="15000" />
+      <workItem from="1603055752841" duration="104000" />
+      <workItem from="1603058306462" duration="2417000" />
+      <workItem from="1603643818387" duration="1538000" />
+      <workItem from="1603894850522" duration="26000" />
+      <workItem from="1603894935135" duration="7000" />
+      <workItem from="1607700589759" duration="2147000" />
     </task>
     <task id="LOCAL-00001" summary="Moving to angular">
       <created>1573945038460</created>
@@ -532,7 +550,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601653678472</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Moving back button on project displays">
+      <created>1601654052259</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1601654052259</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +576,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed bug on main-body height, adding experience boilerplate" />
     <MESSAGE value="Undid min-height for body due to webkit bug" />
     <MESSAGE value="Fixing scaling for smaller resolutions" />
     <MESSAGE value="Migrating to React, Home and Footer done" />
@@ -576,7 +600,8 @@
     <MESSAGE value="Updating styles and links on projects" />
     <MESSAGE value="Small update on experience" />
     <MESSAGE value="Updating experience layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating experience layout" />
+    <MESSAGE value="Moving back button on project displays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving back button on project displays" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Plugins" timestamp="1600805292294">
@@ -599,10 +624,10 @@
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
     <state x="-1009" y="270" key="#xdebugger.evaluate/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600825636556" />
-    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601653677534">
+    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601654051768">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601653677534" />
+    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601654051768" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1600995265208">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -611,66 +636,66 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="629" y="318" key="EditFileWatcherDialog/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600789422363" />
-    <state x="740" y="282" key="FileChooserDialogImpl" timestamp="1597175543778">
+    <state x="740" y="282" key="FileChooserDialogImpl" timestamp="1603643831668">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="282" key="FileChooserDialogImpl/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1597175543778" />
+    <state x="740" y="282" key="FileChooserDialogImpl/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1603643831668" />
     <state x="0" y="287" key="FileDocumentManager.FileCacheConflict" timestamp="1600962087845">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="287" key="FileDocumentManager.FileCacheConflict/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962087845" />
-    <state width="1882" height="179" key="GridCell.Tab.0.bottom" timestamp="1601471262772">
-      <screen x="-1920" y="77" width="1920" height="1080" />
+    <state width="1899" height="123" key="GridCell.Tab.0.bottom" timestamp="1602176451945">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1882" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@-1920.77.1920.1080" timestamp="1601471262772" />
-    <state width="1899" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601408915760" />
-    <state width="1882" height="179" key="GridCell.Tab.0.center" timestamp="1601471262772">
-      <screen x="-1920" y="77" width="1920" height="1080" />
+    <state width="1899" height="123" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
+    <state width="1899" height="123" key="GridCell.Tab.0.center" timestamp="1602176451945">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1882" height="179" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@-1920.77.1920.1080" timestamp="1601471262772" />
-    <state width="1899" height="179" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601408915760" />
-    <state width="1882" height="179" key="GridCell.Tab.0.left" timestamp="1601471262772">
-      <screen x="-1920" y="77" width="1920" height="1080" />
+    <state width="1899" height="123" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
+    <state width="1899" height="123" key="GridCell.Tab.0.left" timestamp="1602176451945">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1882" height="179" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@-1920.77.1920.1080" timestamp="1601471262772" />
-    <state width="1899" height="179" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601408915760" />
-    <state width="1882" height="179" key="GridCell.Tab.0.right" timestamp="1601471262772">
-      <screen x="-1920" y="77" width="1920" height="1080" />
+    <state width="1899" height="123" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
+    <state width="1899" height="123" key="GridCell.Tab.0.right" timestamp="1602176451945">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1882" height="179" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@-1920.77.1920.1080" timestamp="1601471262772" />
-    <state width="1899" height="179" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601408915760" />
-    <state width="1899" height="123" key="GridCell.Tab.1.bottom" timestamp="1600962047215">
+    <state width="1899" height="123" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
+    <state width="1899" height="123" key="GridCell.Tab.1.bottom" timestamp="1602176451945">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="123" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962047215" />
-    <state width="1899" height="123" key="GridCell.Tab.1.center" timestamp="1600962047215">
+    <state width="1899" height="123" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
+    <state width="1899" height="123" key="GridCell.Tab.1.center" timestamp="1602176451945">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="123" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962047215" />
-    <state width="1899" height="123" key="GridCell.Tab.1.left" timestamp="1600962047215">
+    <state width="1899" height="123" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
+    <state width="1899" height="123" key="GridCell.Tab.1.left" timestamp="1602176451945">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="123" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962047215" />
-    <state width="1899" height="123" key="GridCell.Tab.1.right" timestamp="1600962047215">
+    <state width="1899" height="123" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
+    <state width="1899" height="123" key="GridCell.Tab.1.right" timestamp="1602176451945">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="123" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962047215" />
-    <state width="1899" height="123" key="GridCell.Tab.2.bottom" timestamp="1600962047215">
+    <state width="1899" height="123" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
+    <state width="1899" height="123" key="GridCell.Tab.2.bottom" timestamp="1602176451946">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="123" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962047215" />
-    <state width="1899" height="123" key="GridCell.Tab.2.center" timestamp="1600962047215">
+    <state width="1899" height="123" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451946" />
+    <state width="1899" height="123" key="GridCell.Tab.2.center" timestamp="1602176451946">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="123" key="GridCell.Tab.2.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962047215" />
-    <state width="1899" height="123" key="GridCell.Tab.2.left" timestamp="1600962047215">
+    <state width="1899" height="123" key="GridCell.Tab.2.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451946" />
+    <state width="1899" height="123" key="GridCell.Tab.2.left" timestamp="1602176451946">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="123" key="GridCell.Tab.2.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962047215" />
-    <state width="1899" height="123" key="GridCell.Tab.2.right" timestamp="1600962047215">
+    <state width="1899" height="123" key="GridCell.Tab.2.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451946" />
+    <state width="1899" height="123" key="GridCell.Tab.2.right" timestamp="1602176451946">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="123" key="GridCell.Tab.2.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962047215" />
+    <state width="1899" height="123" key="GridCell.Tab.2.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451946" />
     <state x="734" y="242" key="RollbackChangesDialog" timestamp="1601048049556">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -679,10 +704,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601304487873" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601653679957">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601654056493">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601653679957" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601654056493" />
     <state x="92" y="92" width="1736" height="896" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601399142432">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -699,17 +724,17 @@
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
     <state x="-814" y="77" width="808" height="836" maximized="true" key="dock-window-1/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600805689023" />
-    <state x="667" y="273" width="585" height="592" key="find.popup" timestamp="1601399071038">
+    <state x="667" y="273" width="585" height="592" key="find.popup" timestamp="1603058310908">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="667" y="273" width="585" height="592" key="find.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601399071038" />
+    <state x="667" y="273" width="585" height="592" key="find.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1603058310908" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1601047146919">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601047146919" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1601152805001">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1601990525225">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601152805001" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601990525225" />
   </component>
 </project>

@@ -1,16 +1,12 @@
 import React from 'react'
-import { graphql, Link, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 
 import ProjectDisplay from '../../components/projectDisplay'
 import AppContainer from '../../components/appContainer'
 
 import styles from './common.module.css'
 
-type PortfolioWebsiteProps = {
-  location: Location
-}
-
-const P5Graph: React.FC<PortfolioWebsiteProps> = props => {
+const P5Graph: React.FC<ProjectDisplayPageProps> = props => {
   // Get All Images
   const imageData = useStaticQuery(graphql`
       query getLeedsHackPhotos {
@@ -42,7 +38,7 @@ const P5Graph: React.FC<PortfolioWebsiteProps> = props => {
     <AppContainer location={props.location}>
       <ProjectDisplay
         projectImage={imageData.allFile.edges[0].node.childImageSharp.fluid}
-        title={'Snake Experiment'}
+        title={'Puzzle Game - Web'}
         description={description}
         techStack={['Javascript', 'p5.js']}
       />

@@ -1,17 +1,12 @@
 import React from 'react'
-import { graphql, Link, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 
 import ProjectDisplay from '../../components/projectDisplay'
 import AppContainer from '../../components/appContainer'
 
 import styles from './common.module.css'
-import { FluidObject } from 'gatsby-image/index'
 
-type PortfolioWebsiteProps = {
-  location: Location
-}
-
-const HackManchesterBioTiming: React.FC<PortfolioWebsiteProps> = props => {
+const HackManchesterBioTiming: React.FC<ProjectDisplayPageProps> = props => {
   // Get All Images
   const imageData = useStaticQuery(graphql`
       query getHackManchesterPhotos {

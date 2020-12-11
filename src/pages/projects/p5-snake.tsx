@@ -1,12 +1,16 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, Link, useStaticQuery } from 'gatsby'
 
 import ProjectDisplay from '../../components/projectDisplay'
 import AppContainer from '../../components/appContainer'
 
 import styles from './common.module.css'
 
-const P5Graph: React.FC<ProjectDisplayPageProps> = props => {
+type PortfolioWebsiteProps = {
+  location: Location
+}
+
+const P5Snake: React.FC<PortfolioWebsiteProps> = props => {
   // Get All Images
   const imageData = useStaticQuery(graphql`
       query getSnakePhotos {
@@ -37,7 +41,7 @@ const P5Graph: React.FC<ProjectDisplayPageProps> = props => {
     <AppContainer location={props.location}>
       <ProjectDisplay
         projectImage={imageData.allFile.edges[0].node.childImageSharp.fluid}
-        title={'Snake Experiment'}
+        title={'Snake Game Experiment'}
         description={description}
         techStack={['JavaScript', 'p5.js']}
         codeLink={"https://github.com/Alfred-Mountfield/p5-Snake"}
@@ -46,4 +50,4 @@ const P5Graph: React.FC<ProjectDisplayPageProps> = props => {
   )
 }
 
-export default P5Graph
+export default P5Snake

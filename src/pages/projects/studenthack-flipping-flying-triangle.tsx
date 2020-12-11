@@ -1,12 +1,16 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, Link, useStaticQuery } from 'gatsby'
 
 import ProjectDisplay from '../../components/projectDisplay'
 import AppContainer from '../../components/appContainer'
 
 import styles from './common.module.css'
 
-const OxfordHack: React.FC<ProjectDisplayPageProps> = props => {
+type PortfolioWebsiteProps = {
+  location: Location
+}
+
+const StudentHack: React.FC<PortfolioWebsiteProps> = props => {
   // Get All Images
   const imageData = useStaticQuery(graphql`
       query getStudentHackPhotos {
@@ -51,4 +55,4 @@ const OxfordHack: React.FC<ProjectDisplayPageProps> = props => {
   )
 }
 
-export default OxfordHack
+export default StudentHack

@@ -19,18 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Moving back button on project displays">
-      <change afterPath="$PROJECT_DIR$/src/pages/projects/common.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/projects/web-gl-particles.tsx" afterDir="false" />
+    <list default="true" id="9d040a40-c178-4f4e-a198-e497462dcea4" name="Default" comment="Adding particle system project, small syntax fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects/hackmanchester-bio-app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/hackmanchester-bio-app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/projects/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/projects/leedshack-puzzle-game.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/leedshack-puzzle-game.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/projects/oxfordhack-rinder-for-teddit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/oxfordhack-rinder-for-teddit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects/p5-graph.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/p5-graph.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/projects/p5-snake.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/p5-snake.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects/portfolio-website.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/portfolio-website.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/projects/studenthack-flipping-flying-triangle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/studenthack-flipping-flying-triangle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/web-gl-particles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/web-gl-particles.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,7 @@
       <recent name="C:\Users\Alfred\IdeaProjects\PersonalWebsite\src\assets\images" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Run App">
+  <component name="RunManager" selected="npm.build">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -232,9 +228,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.develop" />
         <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +278,8 @@
       <workItem from="1603643818387" duration="1538000" />
       <workItem from="1603894850522" duration="26000" />
       <workItem from="1603894935135" duration="7000" />
-      <workItem from="1607700589759" duration="2147000" />
+      <workItem from="1607700589759" duration="2491000" />
+      <workItem from="1607704266308" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="Moving to angular">
       <created>1573945038460</created>
@@ -557,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601654052259</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Adding particle system project, small syntax fixes">
+      <created>1607703250940</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1607703250940</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +580,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Undid min-height for body due to webkit bug" />
     <MESSAGE value="Fixing scaling for smaller resolutions" />
     <MESSAGE value="Migrating to React, Home and Footer done" />
     <MESSAGE value="Removing more of old site, migrated About page" />
@@ -601,7 +604,8 @@
     <MESSAGE value="Small update on experience" />
     <MESSAGE value="Updating experience layout" />
     <MESSAGE value="Moving back button on project displays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving back button on project displays" />
+    <MESSAGE value="Adding particle system project, small syntax fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding particle system project, small syntax fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Plugins" timestamp="1600805292294">
@@ -624,10 +628,11 @@
       <screen x="-1920" y="77" width="1920" height="1080" />
     </state>
     <state x="-1009" y="270" key="#xdebugger.evaluate/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600825636556" />
-    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1601654051768">
+    <state x="352" y="127" key="CommitChangelistDialog2" timestamp="1607703557427">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601654051768" />
+    <state x="352" y="127" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1607703557427" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1600995265208">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -644,26 +649,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="287" key="FileDocumentManager.FileCacheConflict/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1600962087845" />
-    <state width="1899" height="123" key="GridCell.Tab.0.bottom" timestamp="1602176451945">
+    <state width="1899" height="180" key="GridCell.Tab.0.bottom" timestamp="1607703557865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1882" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@-1920.77.1920.1080" timestamp="1601471262772" />
     <state width="1899" height="123" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
-    <state width="1899" height="123" key="GridCell.Tab.0.center" timestamp="1602176451945">
+    <state width="1899" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607703557865" />
+    <state width="1899" height="180" key="GridCell.Tab.0.center" timestamp="1607703557865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1882" height="179" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@-1920.77.1920.1080" timestamp="1601471262772" />
     <state width="1899" height="123" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
-    <state width="1899" height="123" key="GridCell.Tab.0.left" timestamp="1602176451945">
+    <state width="1899" height="180" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607703557865" />
+    <state width="1899" height="180" key="GridCell.Tab.0.left" timestamp="1607703557865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1882" height="179" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@-1920.77.1920.1080" timestamp="1601471262772" />
     <state width="1899" height="123" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
-    <state width="1899" height="123" key="GridCell.Tab.0.right" timestamp="1602176451945">
+    <state width="1899" height="180" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607703557865" />
+    <state width="1899" height="180" key="GridCell.Tab.0.right" timestamp="1607703557865">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1882" height="179" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@-1920.77.1920.1080" timestamp="1601471262772" />
     <state width="1899" height="123" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1602176451945" />
+    <state width="1899" height="180" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607703557865" />
     <state width="1899" height="123" key="GridCell.Tab.1.bottom" timestamp="1602176451945">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -704,10 +713,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601304487873" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601654056493">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1607703268351">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.77.1920.1080@0.0.1920.1080" timestamp="1601654056493" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1607703268351" />
     <state x="92" y="92" width="1736" height="896" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601399142432">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

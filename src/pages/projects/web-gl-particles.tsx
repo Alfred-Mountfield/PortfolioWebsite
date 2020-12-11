@@ -32,7 +32,7 @@ const WebGLParticles: React.FC<ProjectDisplayPageProps> = props => {
     "A series of different starting shapes show the ability to load particle positions from textures (and although unimplemented, easily read " +
     "mesh geometries). \n\n"
 
-  const description =<div>{mainDescription}<i>n.b. Definitely <b>not</b> mobile-friendly!</i></div>
+  const description = <div>{mainDescription}<i>n.b. Definitely <b>not</b> mobile-friendly!</i></div>
 
   return (
     <AppContainer location={props.location}>

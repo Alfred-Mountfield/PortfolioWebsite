@@ -63,51 +63,6 @@ export const About: React.FC<AboutProps> = props => {
           tech={'Java (Spring, JAXB), Python (Pandas, Flask, SQLAlchemy), AppDynamics, Splunk'}
         />
       </Container>
-
-      <Container>
-        <Row className="mt-5">
-          <Col xs={10} lg={6} className="m-0 mb-4 ml-lg-5 ml-2">
-            <h1 className={styles.paraHeader}>I enjoy</h1>
-            <p className={styles.paraContent}>
-              <ul>
-                <li>Encountering, understanding, and solving, problems</li>
-                <li>Designing</li>
-                <li>Tinkering</li>
-                <li>Problem Solving</li>
-              </ul>
-            </p>
-          </Col>
-        </Row>
-        <Row className="m-0 justify-content-end">
-          <Col xs={10} lg={6} className="mb-4 mr-lg-5 mr-2">
-            <h1 className={styles.paraHeader}>I like to spend my time</h1>
-            <p className={styles.paraContent}>
-              <ul>
-                <li>Learning new (and often useless) skills</li>
-                <li>Climbing</li>
-                <li>Exploring</li>
-                <li>Cooking</li>
-                <li>Surfing</li>
-              </ul>
-            </p>
-          </Col>
-        </Row>
-        <Row className="m-0">
-          <Col xs={10} lg={6} className="m-0 mb-4 ml-lg-5 ml-2">
-            <h1 className={styles.paraHeader}>I work best when</h1>
-            <p className={styles.paraContent}>
-              <ul>
-                <li>
-                  I know <i>why</i> something needs to be done
-                </li>
-                <li>I know what I'm doing matters</li>
-                <li>When the work is challenging</li>
-              </ul>
-            </p>
-          </Col>
-        </Row>
-      </Container>
-
       <Container>
         <h1 className={classNames(styles.sectionHeader, 'mt-5 mb-5')}>——— Education ———</h1>
         <Row className={classNames(styles.locationExplanationRow, 'm-0 mt-1 justify-content-center')}>

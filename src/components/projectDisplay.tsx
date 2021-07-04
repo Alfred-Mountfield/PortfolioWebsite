@@ -38,7 +38,7 @@ const ProjectDisplay: React.FC<ProjectDisplayProps> = props => {
             <Row className={styles.titleContainer}>
               <span className={styles.title}>{props.title}</span>
               {props.codeLink ? (
-                <a className={styles.codeLink} href={props.codeLink}>
+                <a className={styles.codeLink} href={props.codeLink} title={"Link to Source Code"}>
                   <FontAwesomeIcon icon={faCode} size={'lg'} />
                 </a>
               ) : null}

@@ -40,6 +40,11 @@ const Index: React.FC<ProjectsProps> = props => {
 
   const projects = [
     {
+      title: "OutbreakSim",
+      picture: 'outbreakSim.jpg',
+      link: 'outbreak-sim',
+    },
+    {
       title: "This (Portfolio Website)",
       picture: 'portfolioWebsite.png',
       link: 'portfolio-website',
